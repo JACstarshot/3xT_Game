@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{35A13891-9116-4757-BFFC-1BAD840D3C2A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Prueba1.P_Watch_1Extension/InterfaceController.cs">
+    <Files>
+      <File FileName="Prueba1.P_Watch_1Extension/InterfaceController.cs" Line="34" Column="10" />
+      <File FileName="Prueba1.P_Watch_1Extension/InterfaceGame.cs" Line="1" Column="1" />
+      <File FileName="Prueba1.P_Watch_1Extension/InterfaceController.designer.cs" Line="1" Column="1" />
+      <File FileName="Prueba1.P_Watch_1Extension/InterfaceGame.designer.cs" Line="118" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Prueba1 PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6E0B2ED9-1E6C-4606-B753-A84456184B3C">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.Prueba1>
+  <MonoDevelop.Ide.ItemProperties.Prueba1.P__Watch__1 PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BF48CE9E-F3A8-4349-A19E-B422B0046E59" automaticSigning="False">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.Prueba1.P__Watch__1>
+  <MonoDevelop.Ide.ItemProperties.Prueba1.P__Watch__1Extension automaticSigning="False">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.Prueba1.P__Watch__1Extension>
+  <MultiItemStartupConfigurations />
+</Properties>

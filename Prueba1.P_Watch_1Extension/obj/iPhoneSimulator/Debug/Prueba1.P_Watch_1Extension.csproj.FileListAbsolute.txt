@@ -1,0 +1,8 @@
+/Users/starshotsoftware/Documents/JAC/Prueba1/Prueba1.P_Watch_1Extension/bin/iPhoneSimulator/Debug/Prueba1P_Watch_1Extension.dll
+/Users/starshotsoftware/Documents/JAC/Prueba1/Prueba1.P_Watch_1Extension/bin/iPhoneSimulator/Debug/Prueba1P_Watch_1Extension.pdb
+/Users/starshotsoftware/Documents/JAC/Prueba1/Prueba1.P_Watch_1Extension/obj/iPhoneSimulator/Debug/device-builds/watch2.3-4.2/actool/_PartialAppManifest.items
+/Users/starshotsoftware/Documents/JAC/Prueba1/Prueba1.P_Watch_1Extension/obj/iPhoneSimulator/Debug/device-builds/watch2.3-4.2/actool/_BundleResourceWithLogicalName.items
+/Users/starshotsoftware/Documents/JAC/Prueba1/Prueba1.P_Watch_1Extension/obj/iPhoneSimulator/Debug/device-builds/watch2.3-4.2/optimized/
+/Users/starshotsoftware/Documents/JAC/Prueba1/Prueba1.P_Watch_1Extension/obj/iPhoneSimulator/Debug/Prueba1.P_Watch_1Extension.csproj.CoreCompileInputs.cache
+/Users/starshotsoftware/Documents/JAC/Prueba1/Prueba1.P_Watch_1Extension/obj/iPhoneSimulator/Debug/Prueba1P_Watch_1Extension.dll
+/Users/starshotsoftware/Documents/JAC/Prueba1/Prueba1.P_Watch_1Extension/obj/iPhoneSimulator/Debug/Prueba1P_Watch_1Extension.pdb

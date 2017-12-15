@@ -1,0 +1,9 @@
+/Users/starshotsoftware/Documents/JAC/Prueba1/Prueba1/bin/iPhoneSimulator/Debug/Prueba1.exe
+/Users/starshotsoftware/Documents/JAC/Prueba1/Prueba1/bin/iPhoneSimulator/Debug/Prueba1.pdb
+/Users/starshotsoftware/Documents/JAC/Prueba1/Prueba1/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/ibtool/_BundleResourceWithLogicalName.items
+/Users/starshotsoftware/Documents/JAC/Prueba1/Prueba1/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/actool/_PartialAppManifest.items
+/Users/starshotsoftware/Documents/JAC/Prueba1/Prueba1/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/actool/_BundleResourceWithLogicalName.items
+/Users/starshotsoftware/Documents/JAC/Prueba1/Prueba1/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/optimized/
+/Users/starshotsoftware/Documents/JAC/Prueba1/Prueba1/obj/iPhoneSimulator/Debug/Prueba1.csproj.CoreCompileInputs.cache
+/Users/starshotsoftware/Documents/JAC/Prueba1/Prueba1/obj/iPhoneSimulator/Debug/Prueba1.exe
+/Users/starshotsoftware/Documents/JAC/Prueba1/Prueba1/obj/iPhoneSimulator/Debug/Prueba1.pdb
