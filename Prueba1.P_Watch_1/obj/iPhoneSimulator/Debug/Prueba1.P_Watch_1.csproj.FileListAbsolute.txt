@@ -9,3 +9,16 @@
 /Users/starshotsoftware/Documents/JAC/Prueba1/Prueba1.P_Watch_1/obj/iPhoneSimulator/Debug/Prueba1P_Watch_1.pdb
 /Users/starshotsoftware/Documents/JAC/Prueba1/Prueba1.P_Watch_1/obj/iPhoneSimulator/Debug/optimized/ic_videogame_asset_2x.png
 /Users/starshotsoftware/Documents/JAC/Prueba1/Prueba1.P_Watch_1/obj/iPhoneSimulator/Debug/optimized/ic_videogame_asset_white_2x.png
+/Users/starshotsoftware/3xT_Game/Prueba1.P_Watch_1/bin/iPhoneSimulator/Debug/Prueba1P_Watch_1.dll
+/Users/starshotsoftware/3xT_Game/Prueba1.P_Watch_1/bin/iPhoneSimulator/Debug/Prueba1P_Watch_1.pdb
+/Users/starshotsoftware/3xT_Game/Prueba1.P_Watch_1/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/starshotsoftware/3xT_Game/Prueba1.P_Watch_1/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/starshotsoftware/3xT_Game/Prueba1.P_Watch_1/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/starshotsoftware/3xT_Game/Prueba1.P_Watch_1/obj/iPhoneSimulator/Debug/optimized/ic_videogame_asset_2x.png
+/Users/starshotsoftware/3xT_Game/Prueba1.P_Watch_1/obj/iPhoneSimulator/Debug/optimized/ic_videogame_asset_white_2x.png
+/Users/starshotsoftware/3xT_Game/Prueba1.P_Watch_1/obj/iPhoneSimulator/Debug/optimized/
+/Users/starshotsoftware/3xT_Game/Prueba1.P_Watch_1/obj/iPhoneSimulator/Debug/Prueba1.P_Watch_1.csproj.CoreCompileInputs.cache
+/Users/starshotsoftware/3xT_Game/Prueba1.P_Watch_1/obj/iPhoneSimulator/Debug/Prueba1P_Watch_1.dll
+/Users/starshotsoftware/3xT_Game/Prueba1.P_Watch_1/obj/iPhoneSimulator/Debug/Prueba1P_Watch_1.pdb
+/Users/starshotsoftware/3xT_Game/Prueba1.P_Watch_1/obj/iPhoneSimulator/Debug/optimized/o.png
+/Users/starshotsoftware/3xT_Game/Prueba1.P_Watch_1/obj/iPhoneSimulator/Debug/optimized/x.png

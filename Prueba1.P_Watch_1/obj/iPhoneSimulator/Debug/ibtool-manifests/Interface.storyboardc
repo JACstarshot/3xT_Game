@@ -7,22 +7,6 @@
 	<key>com.apple.ibtool.document.notices</key>
 	<dict/>
 	<key>com.apple.ibtool.document.warnings</key>
-	<dict>
-		<key>AgC-eL-Hgc</key>
-		<array>
-			<dict>
-				<key>affected-objects</key>
-				<array>
-					<string>AgC-eL-Hgc</string>
-				</array>
-				<key>message</key>
-				<string>Interface Controller AgC-eL-Hgc is unreachable.</string>
-				<key>type</key>
-				<string>IBUnsupportedConfiguration</string>
-				<key>type-value</key>
-				<integer>9</integer>
-			</dict>
-		</array>
-	</dict>
+	<dict/>
 </dict>
 </plist>

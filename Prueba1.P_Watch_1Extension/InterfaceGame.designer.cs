@@ -1,10 +1,11 @@
 // WARNING
 //
-// This file has been generated automatically by Visual Studio to store outlets and
-// actions made in the UI designer. If it is removed, they will be lost.
-// Manual changes to this file may not be handled correctly.
+// This file has been generated automatically by Visual Studio from the outlets and
+// actions declared in your storyboard file.
+// Manual changes to this file will not be maintained.
 //
 using Foundation;
+using System;
 using System.CodeDom.Compiler;
 
 namespace Prueba1.P_Watch_1Extension
@@ -48,14 +49,54 @@ namespace Prueba1.P_Watch_1Extension
         [Outlet]
         WatchKit.WKInterfaceGroup horizontal3 { get; set; }
 
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        WatchKit.WKInterfaceSeparator sep1 { get; set; }
+
         [Action ("m1")]
         partial void m1 ();
-        
+
+        [Action ("btn00_activate")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void btn00_activate ();
+
+        [Action ("btn01_activate")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void btn01_activate ();
+
+        [Action ("btn02_activate")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void btn02_activate ();
+
+        [Action ("btn10_activate")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void btn10_activate ();
+
+        [Action ("btn11_activate")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void btn11_activate ();
+
+        [Action ("btn12_activate")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void btn12_activate ();
+
+        [Action ("btn20_activate")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void btn20_activate ();
+
+        [Action ("btn21_activate")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void btn21_activate ();
+
+        [Action ("btn22_activate")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void btn22_activate ();
+
         void ReleaseDesignerOutlets ()
         {
-            if (horizontal1 != null) {
-                horizontal1.Dispose ();
-                horizontal1 = null;
+            if (bur01 != null) {
+                bur01.Dispose ();
+                bur01 = null;
             }
 
             if (but00 != null) {
@@ -63,39 +104,14 @@ namespace Prueba1.P_Watch_1Extension
                 but00 = null;
             }
 
-            if (bur01 != null) {
-                bur01.Dispose ();
-                bur01 = null;
-            }
-
-            if (butt02 != null) {
-                butt02.Dispose ();
-                butt02 = null;
-            }
-
-            if (horizontal2 != null) {
-                horizontal2.Dispose ();
-                horizontal2 = null;
-            }
-
             if (but10 != null) {
                 but10.Dispose ();
                 but10 = null;
             }
 
-            if (butt11 != null) {
-                butt11.Dispose ();
-                butt11 = null;
-            }
-
             if (but12 != null) {
                 but12.Dispose ();
                 but12 = null;
-            }
-
-            if (horizontal3 != null) {
-                horizontal3.Dispose ();
-                horizontal3 = null;
             }
 
             if (but20 != null) {
@@ -111,6 +127,36 @@ namespace Prueba1.P_Watch_1Extension
             if (but22 != null) {
                 but22.Dispose ();
                 but22 = null;
+            }
+
+            if (butt02 != null) {
+                butt02.Dispose ();
+                butt02 = null;
+            }
+
+            if (butt11 != null) {
+                butt11.Dispose ();
+                butt11 = null;
+            }
+
+            if (horizontal1 != null) {
+                horizontal1.Dispose ();
+                horizontal1 = null;
+            }
+
+            if (horizontal2 != null) {
+                horizontal2.Dispose ();
+                horizontal2 = null;
+            }
+
+            if (horizontal3 != null) {
+                horizontal3.Dispose ();
+                horizontal3 = null;
+            }
+
+            if (sep1 != null) {
+                sep1.Dispose ();
+                sep1 = null;
             }
         }
     }

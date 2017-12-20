@@ -1,4 +1,4 @@
-/Users/starshotsoftware/Documents/JAC/Prueba1/Prueba1.P_Watch_1Extension/bin/iPhoneSimulator/Debug/Prueba1P_Watch_1Extension.dll
+/Users/starshotsoftware/3xT_Game/Prueba1.P_Watch_1Extension/bin/iPhoneSimulator/Debug/Prueba1P_Watch_1Extension.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mono/Xamarin.WatchOS/mscorlib.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mono/Xamarin.WatchOS/../../32bits/Xamarin.WatchOS.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mono/Xamarin.WatchOS/System.dll

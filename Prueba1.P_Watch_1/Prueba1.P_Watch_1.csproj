@@ -116,6 +116,8 @@
   <ItemGroup>
     <BundleResource Include="Resources\ic_videogame_asset_2x.png" />
     <BundleResource Include="Resources\ic_videogame_asset_white_2x.png" />
+    <BundleResource Include="Resources\o.png" />
+    <BundleResource Include="Resources\x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\WatchOS\Xamarin.WatchOS.App.CSharp.targets" />
 </Project>
