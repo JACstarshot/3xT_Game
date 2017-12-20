@@ -163,7 +163,7 @@
                                     <color key="color" red="0.12396681180000001" green="0.78957964759999999" blue="1" alpha="0.83648767609999997" colorSpace="custom" customColorSpace="sRGB"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </separator>
-                                <button width="0.29999999999999999" widthAdjustment="3" alignment="left" id="ahj-7a-0eQ" isAccessibilityElement="NO">
+                                <button width="0.29999999999999999" widthAdjustment="3" alignment="left" id="ahj-7a-0eQ">
                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <connections>
