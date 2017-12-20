@@ -4,7 +4,6 @@ using WatchKit;
 using UIKit;
 
 
-
 namespace Prueba1.P_Watch_1Extension
 {
     public partial class InterfaceGame : WKInterfaceController
@@ -24,9 +23,10 @@ namespace Prueba1.P_Watch_1Extension
 
         partial void btn00_activate()
         {
-            SepColor();
+           SepColor();
             but00.SetEnabled(false);
             but00.SetBackgroundImage(imagenTurno);
+
             if (tirada == true) {
                 L1x++;
                 C1x++;
@@ -37,6 +37,9 @@ namespace Prueba1.P_Watch_1Extension
                 C1o++;
                 D1o++;
             }
+
+            checkGame();
+
         }
 
         partial void btn01_activate()
@@ -54,6 +57,7 @@ namespace Prueba1.P_Watch_1Extension
                 L1o++;
                 C2o++;
             }
+            checkGame();
         }
 
         partial void btn02_activate()
@@ -73,6 +77,7 @@ namespace Prueba1.P_Watch_1Extension
                 C3o++;
                 D2o++;
             }
+            checkGame();
         }
 
         partial void btn10_activate()
@@ -90,6 +95,7 @@ namespace Prueba1.P_Watch_1Extension
                 L2o++;
                 C1o++;
             }
+            checkGame();
         }
 
         partial void btn11_activate()
@@ -111,6 +117,7 @@ namespace Prueba1.P_Watch_1Extension
                 D1o++;
                 D2o++;
             }
+            checkGame();
         }
 
         partial void btn12_activate()
@@ -128,6 +135,7 @@ namespace Prueba1.P_Watch_1Extension
                 L2o++;
                 C3o++;
             }
+            checkGame();
         }
 
         partial void btn20_activate()
@@ -147,6 +155,7 @@ namespace Prueba1.P_Watch_1Extension
                 C1o++;
                 D2o++;
             }
+            checkGame();
         }
 
         partial void btn21_activate()
@@ -164,6 +173,7 @@ namespace Prueba1.P_Watch_1Extension
                 L3o++;
                 C2o++;
             }
+            checkGame();
         }
 
         partial void btn22_activate()
@@ -183,6 +193,7 @@ namespace Prueba1.P_Watch_1Extension
                 C3o++;
                 D1o++;
             }
+            checkGame();
         }
 
         public void SepColor()
@@ -201,20 +212,18 @@ namespace Prueba1.P_Watch_1Extension
             }   
         }
 
-        public void testerGame()
-        {
-            if (tirada == true)
+        public void checkGame()
+        {      
+            
+            if (L1x == 3 || L2x == 3 || L3x == 3 || C1x == 3 || C2x == 3 || C3x == 3 || D1x == 3 || D2x == 3)
             {
-                sep1.SetColor(UIColor.Red);
-                tirada = false;
-                imagenTurno = "o.png";
+                //Win X               
             }
-            else
+            if (L1o == 3 || L2o == 3 || L3o == 3 || C1o == 3 || C2o == 3 || C3o == 3 || D1o == 3 || D2o == 3)
             {
-                sep1.SetColor(UIColor.Green);
-                tirada = true;
-                imagenTurno = "x.png";
+                //Win O
             }
+
         }
 
     }
