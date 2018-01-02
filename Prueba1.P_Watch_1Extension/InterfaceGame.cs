@@ -4,10 +4,13 @@ using WatchKit;
 using UIKit;
 
 
+
+
 namespace Prueba1.P_Watch_1Extension
 {
     public partial class InterfaceGame : WKInterfaceController
     {
+        
         bool tirada = true;
         string imagenTurno;
 
@@ -23,6 +26,7 @@ namespace Prueba1.P_Watch_1Extension
 
         partial void btn00_activate()
         {
+            
            SepColor();
             but00.SetEnabled(false);
             but00.SetBackgroundImage(imagenTurno);
@@ -42,7 +46,7 @@ namespace Prueba1.P_Watch_1Extension
 
         }
 
-        partial void btn01_activate()
+        partial void Bur01_Activated()
         {
             SepColor();
             bur01.SetEnabled(false);
@@ -217,7 +221,8 @@ namespace Prueba1.P_Watch_1Extension
             
             if (L1x == 3 || L2x == 3 || L3x == 3 || C1x == 3 || C2x == 3 || C3x == 3 || D1x == 3 || D2x == 3)
             {
-                //Win X               
+                //Win X  
+
             }
             if (L1o == 3 || L2o == 3 || L3o == 3 || C1o == 3 || C2o == 3 || C3o == 3 || D1o == 3 || D2o == 3)
             {

@@ -60,10 +60,6 @@ namespace Prueba1.P_Watch_1Extension
         [GeneratedCode ("iOS Designer", "1.0")]
         partial void btn00_activate ();
 
-        [Action ("btn01_activate")]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        partial void btn01_activate ();
-
         [Action ("btn02_activate")]
         [GeneratedCode ("iOS Designer", "1.0")]
         partial void btn02_activate ();
@@ -91,6 +87,10 @@ namespace Prueba1.P_Watch_1Extension
         [Action ("btn22_activate")]
         [GeneratedCode ("iOS Designer", "1.0")]
         partial void btn22_activate ();
+
+        [Action ("Bur01_Activated")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void Bur01_Activated ();
 
         void ReleaseDesignerOutlets ()
         {

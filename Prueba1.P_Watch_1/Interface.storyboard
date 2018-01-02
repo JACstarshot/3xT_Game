@@ -54,7 +54,11 @@
         <!--Notification Controller-->
         <scene sceneID="KIl-fV-djm">
             <objects>
-                <controller id="gdX-wl-uQE" customClass="NotificationController"/>
+                <controller id="gdX-wl-uQE" customClass="NotificationController">
+                    <items>
+                        <label alignment="left" text="Notificacion1" id="1767"/>
+                    </items>
+                </controller>
             </objects>
             <point key="canvasLocation" x="226" y="119"/>
         </scene>
@@ -68,7 +72,7 @@
                         </separator>
                         <group width="1" height="42" alignment="left" id="JCd-Tj-iaZ">
                             <items>
-                                <button width="0.29999999999999999" widthAdjustment="3" alignment="left" id="bCR-Hc-xZr">
+                                <button width="42" widthAdjustment="3" alignment="left" id="bCR-Hc-xZr" height="37">
                                     <color key="titleColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -80,18 +84,18 @@
                                     <color key="color" red="0.12396681180000001" green="0.78957964759999999" blue="1" alpha="0.83648767609999997" colorSpace="custom" customColorSpace="sRGB"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </separator>
-                                <button width="0.29999999999999999" widthAdjustment="4" alignment="left" id="ydB-3w-ET1">
+                                <button width="41" widthAdjustment="4" alignment="left" id="ydB-3w-ET1" height="37">
                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <connections>
-                                        <action selector="btn01_activate" destination="123" id="456"/>
+                                        <action selector="Bur01_Activated" destination="123" id="1286"/>
                                     </connections>
                                 </button>
                                 <separator alignment="left" id="EDN-mW-ij5">
                                     <color key="color" red="0.12396681180000001" green="0.78957964759999999" blue="1" alpha="0.83648767609999997" colorSpace="custom" customColorSpace="sRGB"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </separator>
-                                <button width="0.29999999999999999" widthAdjustment="3" alignment="left" id="9TG-Ch-f4v">
+                                <button width="42" widthAdjustment="3" alignment="left" id="9TG-Ch-f4v" height="37">
                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <connections>
@@ -105,7 +109,7 @@
                         </separator>
                         <group width="1" alignment="left" id="JRD-TG-XIQ">
                             <items>
-                                <button width="0.29999999999999999" widthAdjustment="3" alignment="left" id="Hkq-4M-NgQ">
+                                <button width="42" widthAdjustment="3" alignment="left" id="Hkq-4M-NgQ" height="37">
                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <connections>
@@ -116,7 +120,7 @@
                                     <color key="color" red="0.12396681180000001" green="0.78957964759999999" blue="1" alpha="0.83648767609999997" colorSpace="custom" customColorSpace="sRGB"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </separator>
-                                <button width="0.29999999999999999" widthAdjustment="4" alignment="left" id="6bM-Zh-zhE">
+                                <button width="41" widthAdjustment="4" alignment="left" id="6bM-Zh-zhE" height="37">
                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <connections>
@@ -127,7 +131,7 @@
                                     <color key="color" red="0.12396681180000001" green="0.78957964759999999" blue="1" alpha="0.83648767609999997" colorSpace="custom" customColorSpace="sRGB"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </separator>
-                                <button width="0.29999999999999999" widthAdjustment="3" alignment="center" id="twH-cg-ahK" verticalAlignment="center">
+                                <button width="42" widthAdjustment="3" alignment="center" id="twH-cg-ahK" verticalAlignment="center" height="37">
                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <connections>
@@ -141,7 +145,7 @@
                         </separator>
                         <group width="1" alignment="left" id="lFD-VI-qxw">
                             <items>
-                                <button width="0.29999999999999999" widthAdjustment="3" alignment="left" id="Lzr-Yy-NVg">
+                                <button width="42" widthAdjustment="3" alignment="left" id="Lzr-Yy-NVg" height="37">
                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <connections>
@@ -152,7 +156,7 @@
                                     <color key="color" red="0.12396681180000001" green="0.78957964759999999" blue="1" alpha="0.83648767609999997" colorSpace="custom" customColorSpace="sRGB"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </separator>
-                                <button width="0.29999999999999999" widthAdjustment="4" alignment="left" id="1p7-CJ-Vjv">
+                                <button width="41" widthAdjustment="4" alignment="left" id="1p7-CJ-Vjv" height="37">
                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <connections>
@@ -163,7 +167,7 @@
                                     <color key="color" red="0.12396681180000001" green="0.78957964759999999" blue="1" alpha="0.83648767609999997" colorSpace="custom" customColorSpace="sRGB"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </separator>
-                                <button width="0.29999999999999999" widthAdjustment="3" alignment="left" id="ahj-7a-0eQ">
+                                <button width="42" widthAdjustment="3" alignment="left" id="ahj-7a-0eQ" height="37">
                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <connections>
