@@ -223,10 +223,16 @@ namespace Prueba1.P_Watch_1Extension
             {
                 //Win X  
 
+                var controllerNames = new[] { "pageController", "pageController", "pageController", "pageController", "pageController" };
+                var contexts = new[] { "First", "Second", "Third", "Fourth", "Fifth" };
+                PresentController(controllerNames, contexts);
             }
             if (L1o == 3 || L2o == 3 || L3o == 3 || C1o == 3 || C2o == 3 || C3o == 3 || D1o == 3 || D2o == 3)
             {
                 //Win O
+                var controllerNames = new[] { "pageController", "pageController", "pageController", "pageController", "pageController" };
+                var contexts = new[] { "First", "Second", "Third", "Fourth", "Fifth" };
+                PresentController(controllerNames, contexts);
             }
 
         }
