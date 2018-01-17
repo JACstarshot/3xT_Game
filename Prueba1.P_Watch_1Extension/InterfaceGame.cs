@@ -9,8 +9,7 @@ using UIKit;
 namespace Prueba1.P_Watch_1Extension
 {
     public partial class InterfaceGame : WKInterfaceController
-    {
-        
+    {       
         bool tirada = true;
         string imagenTurno;
 
@@ -22,12 +21,14 @@ namespace Prueba1.P_Watch_1Extension
 
         public InterfaceGame(IntPtr handle) : base(handle)
         {
+            
         }
 
+      
         partial void btn00_activate()
         {
-            
-           SepColor();
+            //InterfaceController.SwitchDetailController();
+            SepColor();
             but00.SetEnabled(false);
             but00.SetBackgroundImage(imagenTurno);
 
@@ -223,15 +224,15 @@ namespace Prueba1.P_Watch_1Extension
             {
                 //Win X  
 
-                var controllerNames = new[] { "pageController", "pageController", "pageController", "pageController", "pageController" };
-                var contexts = new[] { "First", "Second", "Third", "Fourth", "Fifth" };
+                var controllerNames = new[] { "InterfaceController", "InterfaceGame" };
+                var contexts = new[] { "First", "Second"};
                 PresentController(controllerNames, contexts);
             }
             if (L1o == 3 || L2o == 3 || L3o == 3 || C1o == 3 || C2o == 3 || C3o == 3 || D1o == 3 || D2o == 3)
             {
                 //Win O
-                var controllerNames = new[] { "pageController", "pageController", "pageController", "pageController", "pageController" };
-                var contexts = new[] { "First", "Second", "Third", "Fourth", "Fifth" };
+                var controllerNames = new[] { "InterfaceController", "InterfaceGame" };
+                var contexts = new[] { "First", "Second"};
                 PresentController(controllerNames, contexts);
             }
 

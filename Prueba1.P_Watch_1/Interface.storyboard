@@ -15,19 +15,41 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController">
                     <items>
-                        <label alignment="left" text="Label" id="38"/>
-                        <imageView height="40" alignment="center" verticalAlignment="center" image="ic_videogame_asset_white_2x.png" animationDuration="5" id="250"/>
                         <button width="0.29999999999999999" height="0.29999999999999999" heightAdjustment="2" alignment="center" hidden="YES" id="37">
                             <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                             <connections>
                                 <action selector="Button1_Activated" destination="AgC-eL-Hgc" id="386"/>
                             </connections>
                         </button>
+                        <label alignment="center" text="TicTacToe" id="2316" width="76" height="41">
+                            <fontDescription key="font" type="boldSystem" pointSize="16"/>
+                        </label>
+                        <group width="1" alignment="center" id="2245" verticalAlignment="center">
+                            <items>
+                                <switch width="47" alignment="center" value="YES" id="2243" verticalAlignment="center" height="71">
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </switch>
+                                <button width="42" alignment="left" title="1p" id="2317" height="82">
+                                    <connections>
+                                        <action selector="Butt_1_Activated" destination="AgC-eL-Hgc" id="2318"/>
+                                    </connections>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </button>
+                                <button width="44" alignment="right" title="2p" id="2442" height="82">
+                                    <connections>
+                                        <action selector="Butt_2_Activated" destination="AgC-eL-Hgc" id="2443"/>
+                                    </connections>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </button>
+                            </items>
+                        </group>
                     </items>
                     <connections>
-                        <outlet property="imgPad" destination="250" id="name-outlet-250"/>
-                        <outlet property="label1" destination="38" id="name-outlet-38"/>
                         <segue destination="123" kind="relationship" relationship="nextPage" id="cFD-6u-EsJ"/>
+                        <outlet property="switch1p_2p" destination="2243" id="name-outlet-2243"/>
+                        <outlet property="butt_1" destination="2317" id="name-outlet-2317"/>
+                        <outlet property="butt_2" destination="2442" id="name-outlet-2442"/>
                     </connections>
                 </controller>
             </objects>
