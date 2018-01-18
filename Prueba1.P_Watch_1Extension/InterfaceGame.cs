@@ -9,6 +9,7 @@ namespace Prueba1.P_Watch_1Extension
     public partial class InterfaceGame : WKInterfaceController
     {       
         bool tirada = true;
+        bool cpu = true;
         string imagenTurno;
 
         // X  
@@ -28,6 +29,12 @@ namespace Prueba1.P_Watch_1Extension
             btn1.SetEnabled(false);
             btn1.SetBackgroundImage(imagenTurno);
 
+            Console.WriteLine("{0,1}", "winz");
+
+            Random rnd = new Random();
+            rnd.Next(1, 8);
+            rnd.Next(1, 8);
+
             if (tirada == true) {
                 L1x++;
                 C1x++;
@@ -40,6 +47,12 @@ namespace Prueba1.P_Watch_1Extension
             }
 
             checkGame();
+
+            if (cpu == true)
+            {
+                cpu_on();    
+            }
+
 
         }
 
@@ -236,7 +249,16 @@ namespace Prueba1.P_Watch_1Extension
 
         public void cpu_on()
         {
-            
+            Random rnd = new Random();
+            rnd.Next(1,8);
+
+            var bot = btn3; 
+
+            if (bot.IsAccessibilityElement == false)
+            {
+                bot.SetEnabled(false);
+            }
+
         }
 
     }
