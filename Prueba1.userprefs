@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{35A13891-9116-4757-BFFC-1BAD840D3C2A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Prueba1.P_Watch_1Extension/InterfaceController.designer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Prueba1.P_Watch_1/Interface.storyboard">
     <Files>
-      <File FileName="Prueba1.P_Watch_1Extension/InterfaceController.cs" Line="20" Column="13" />
+      <File FileName="Prueba1.P_Watch_1Extension/InterfaceController.cs" Line="40" Column="10" />
       <File FileName="Prueba1.P_Watch_1Extension/InterfaceController.designer.cs" Line="1" Column="1" />
-      <File FileName="Prueba1.P_Watch_1Extension/InterfaceGame.cs" Line="26" Column="9" />
+      <File FileName="Prueba1.P_Watch_1Extension/InterfaceGame.cs" Line="240" Column="13" />
       <File FileName="Prueba1.P_Watch_1Extension/InterfaceGame.designer.cs" Line="1" Column="1" />
       <File FileName="Prueba1.P_Watch_1/Interface.storyboard" />
     </Files>

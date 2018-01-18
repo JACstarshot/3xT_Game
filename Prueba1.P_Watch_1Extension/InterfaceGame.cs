@@ -4,8 +4,6 @@ using WatchKit;
 using UIKit;
 
 
-
-
 namespace Prueba1.P_Watch_1Extension
 {
     public partial class InterfaceGame : WKInterfaceController
@@ -24,13 +22,11 @@ namespace Prueba1.P_Watch_1Extension
             
         }
 
-      
-        partial void btn00_activate()
+        partial void btn1_activate()
         {
-            //InterfaceController.SwitchDetailController();
             SepColor();
-            but00.SetEnabled(false);
-            but00.SetBackgroundImage(imagenTurno);
+            btn1.SetEnabled(false);
+            btn1.SetBackgroundImage(imagenTurno);
 
             if (tirada == true) {
                 L1x++;
@@ -47,11 +43,11 @@ namespace Prueba1.P_Watch_1Extension
 
         }
 
-        partial void Bur01_Activated()
+        partial void btn2_activate()
         {
             SepColor();
-            bur01.SetEnabled(false);
-            bur01.SetBackgroundImage(imagenTurno);
+            btn2.SetEnabled(false);
+            btn2.SetBackgroundImage(imagenTurno);
             if (tirada == true)
             {
                 L1x++;
@@ -65,11 +61,11 @@ namespace Prueba1.P_Watch_1Extension
             checkGame();
         }
 
-        partial void btn02_activate()
+        partial void btn3_activate()
         {
             SepColor();
-            butt02.SetEnabled(false);
-            butt02.SetBackgroundImage(imagenTurno);
+            btn3.SetEnabled(false);
+            btn3.SetBackgroundImage(imagenTurno);
             if (tirada == true)
             {
                 L1x++;
@@ -85,11 +81,11 @@ namespace Prueba1.P_Watch_1Extension
             checkGame();
         }
 
-        partial void btn10_activate()
+        partial void btn4_activate()
         {
             SepColor();
-            but10.SetEnabled(false);
-            but10.SetBackgroundImage(imagenTurno);
+            btn4.SetEnabled(false);
+            btn4.SetBackgroundImage(imagenTurno);
             if (tirada == true)
             {
                 L2x++;
@@ -103,11 +99,11 @@ namespace Prueba1.P_Watch_1Extension
             checkGame();
         }
 
-        partial void btn11_activate()
+        partial void btn5_activate()
         {
             SepColor();
-            butt11.SetEnabled(false);
-            butt11.SetBackgroundImage(imagenTurno);
+            btn5.SetEnabled(false);
+            btn5.SetBackgroundImage(imagenTurno);
             if (tirada == true)
             {
                 L2x++;
@@ -125,11 +121,11 @@ namespace Prueba1.P_Watch_1Extension
             checkGame();
         }
 
-        partial void btn12_activate()
+        partial void btn6_activate()
         {
             SepColor();
-            but12.SetEnabled(false);
-            but12.SetBackgroundImage(imagenTurno);
+            btn6.SetEnabled(false);
+            btn6.SetBackgroundImage(imagenTurno);
             if (tirada == true)
             {
                 L2x++;
@@ -143,11 +139,11 @@ namespace Prueba1.P_Watch_1Extension
             checkGame();
         }
 
-        partial void btn20_activate()
+        partial void btn7_activate()
         {
             SepColor();
-            but20.SetEnabled(false);
-            but20.SetBackgroundImage(imagenTurno);
+            btn7.SetEnabled(false);
+            btn7.SetBackgroundImage(imagenTurno);
             if (tirada == true)
             {
                 L3x++;
@@ -163,11 +159,11 @@ namespace Prueba1.P_Watch_1Extension
             checkGame();
         }
 
-        partial void btn21_activate()
+        partial void btn8_activate()
         {
             SepColor();
-            but21.SetEnabled(false);
-            but21.SetBackgroundImage(imagenTurno);
+            btn8.SetEnabled(false);
+            btn8.SetBackgroundImage(imagenTurno);
             if (tirada == true)
             {
                 L3x++;
@@ -181,11 +177,11 @@ namespace Prueba1.P_Watch_1Extension
             checkGame();
         }
 
-        partial void btn22_activate()
+        partial void btn9_activate()
         {            
             SepColor();
-            but22.SetEnabled(false); 
-            but22.SetBackgroundImage(imagenTurno);
+            btn9.SetEnabled(false); 
+            btn9.SetBackgroundImage(imagenTurno);
             if (tirada == true)
             {
                 L3x++;
@@ -236,6 +232,11 @@ namespace Prueba1.P_Watch_1Extension
                 PresentController(controllerNames, contexts);
             }
 
+        }
+
+        public void cpu_on()
+        {
+            
         }
 
     }

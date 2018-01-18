@@ -14,31 +14,31 @@ namespace Prueba1.P_Watch_1Extension
     partial class InterfaceGame
     {
         [Outlet]
-        WatchKit.WKInterfaceButton bur01 { get; set; }
+        WatchKit.WKInterfaceButton btn1 { get; set; }
 
         [Outlet]
-        WatchKit.WKInterfaceButton but00 { get; set; }
+        WatchKit.WKInterfaceButton btn2 { get; set; }
 
         [Outlet]
-        WatchKit.WKInterfaceButton but10 { get; set; }
+        WatchKit.WKInterfaceButton btn3 { get; set; }
 
         [Outlet]
-        WatchKit.WKInterfaceButton but12 { get; set; }
+        WatchKit.WKInterfaceButton btn4 { get; set; }
 
         [Outlet]
-        WatchKit.WKInterfaceButton but20 { get; set; }
+        WatchKit.WKInterfaceButton btn5 { get; set; }
 
         [Outlet]
-        WatchKit.WKInterfaceButton but21 { get; set; }
+        WatchKit.WKInterfaceButton btn6 { get; set; }
 
         [Outlet]
-        WatchKit.WKInterfaceButton but22 { get; set; }
+        WatchKit.WKInterfaceButton btn7 { get; set; }
 
         [Outlet]
-        WatchKit.WKInterfaceButton butt02 { get; set; }
+        WatchKit.WKInterfaceButton btn8 { get; set; }
 
         [Outlet]
-        WatchKit.WKInterfaceButton butt11 { get; set; }
+        WatchKit.WKInterfaceButton btn9 { get; set; }
 
         [Outlet]
         WatchKit.WKInterfaceGroup horizontal1 { get; set; }
@@ -56,87 +56,87 @@ namespace Prueba1.P_Watch_1Extension
         [Action ("m1")]
         partial void m1 ();
 
-        [Action ("btn00_activate")]
+        [Action ("btn1_activate")]
         [GeneratedCode ("iOS Designer", "1.0")]
-        partial void btn00_activate ();
+        partial void btn1_activate ();
 
-        [Action ("btn02_activate")]
+        [Action ("btn2_activate")]
         [GeneratedCode ("iOS Designer", "1.0")]
-        partial void btn02_activate ();
+        partial void btn2_activate ();
 
-        [Action ("btn10_activate")]
+        [Action ("btn3_activate")]
         [GeneratedCode ("iOS Designer", "1.0")]
-        partial void btn10_activate ();
+        partial void btn3_activate ();
 
-        [Action ("btn11_activate")]
+        [Action ("btn4_activate")]
         [GeneratedCode ("iOS Designer", "1.0")]
-        partial void btn11_activate ();
+        partial void btn4_activate ();
 
-        [Action ("btn12_activate")]
+        [Action ("btn5_activate")]
         [GeneratedCode ("iOS Designer", "1.0")]
-        partial void btn12_activate ();
+        partial void btn5_activate ();
 
-        [Action ("btn20_activate")]
+        [Action ("btn6_activate")]
         [GeneratedCode ("iOS Designer", "1.0")]
-        partial void btn20_activate ();
+        partial void btn6_activate ();
 
-        [Action ("btn21_activate")]
+        [Action ("btn7_activate")]
         [GeneratedCode ("iOS Designer", "1.0")]
-        partial void btn21_activate ();
+        partial void btn7_activate ();
 
-        [Action ("btn22_activate")]
+        [Action ("btn8_activate")]
         [GeneratedCode ("iOS Designer", "1.0")]
-        partial void btn22_activate ();
+        partial void btn8_activate ();
 
-        [Action ("Bur01_Activated")]
+        [Action ("btn9_activate")]
         [GeneratedCode ("iOS Designer", "1.0")]
-        partial void Bur01_Activated ();
+        partial void btn9_activate ();
 
         void ReleaseDesignerOutlets ()
         {
-            if (bur01 != null) {
-                bur01.Dispose ();
-                bur01 = null;
+            if (btn1 != null) {
+                btn1.Dispose ();
+                btn1 = null;
             }
 
-            if (but00 != null) {
-                but00.Dispose ();
-                but00 = null;
+            if (btn2 != null) {
+                btn2.Dispose ();
+                btn2 = null;
             }
 
-            if (but10 != null) {
-                but10.Dispose ();
-                but10 = null;
+            if (btn3 != null) {
+                btn3.Dispose ();
+                btn3 = null;
             }
 
-            if (but12 != null) {
-                but12.Dispose ();
-                but12 = null;
+            if (btn4 != null) {
+                btn4.Dispose ();
+                btn4 = null;
             }
 
-            if (but20 != null) {
-                but20.Dispose ();
-                but20 = null;
+            if (btn5 != null) {
+                btn5.Dispose ();
+                btn5 = null;
             }
 
-            if (but21 != null) {
-                but21.Dispose ();
-                but21 = null;
+            if (btn6 != null) {
+                btn6.Dispose ();
+                btn6 = null;
             }
 
-            if (but22 != null) {
-                but22.Dispose ();
-                but22 = null;
+            if (btn7 != null) {
+                btn7.Dispose ();
+                btn7 = null;
             }
 
-            if (butt02 != null) {
-                butt02.Dispose ();
-                butt02 = null;
+            if (btn8 != null) {
+                btn8.Dispose ();
+                btn8 = null;
             }
 
-            if (butt11 != null) {
-                butt11.Dispose ();
-                butt11 = null;
+            if (btn9 != null) {
+                btn9.Dispose ();
+                btn9 = null;
             }
 
             if (horizontal1 != null) {
