@@ -9,6 +9,7 @@ namespace Prueba1.P_Watch_1Extension
 
     public partial class InterfaceController : WKInterfaceController
     {
+        
         protected InterfaceController(IntPtr handle) : base(handle)
         {
             // Note: this .ctor should not contain any initialization logic.
@@ -24,6 +25,8 @@ namespace Prueba1.P_Watch_1Extension
         {
             switch1p_2p.SetOn(true);
         }
+
+
 
         public override void Awake(NSObject context)
         {

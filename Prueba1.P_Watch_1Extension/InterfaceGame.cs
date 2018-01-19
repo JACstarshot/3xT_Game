@@ -6,6 +6,7 @@ using UIKit;
 
 namespace Prueba1.P_Watch_1Extension
 {
+    
     public partial class InterfaceGame : WKInterfaceController
     {       
         bool tirada = true;
@@ -194,6 +195,7 @@ namespace Prueba1.P_Watch_1Extension
             {
                 cpu_on();
             }
+
         }
 
         partial void btn8_activate()
@@ -282,19 +284,19 @@ namespace Prueba1.P_Watch_1Extension
 
         public void cpu_on()
         {
-            //var arrayBtn = new[] { btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9 };
+            var arrayBtn = new[] { btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9 };
 
-            //Random rnd = new Random();
-            //int rndBtn = rnd.Next(1,8);
+            Random rnd = new Random();
+            int rndBtn = rnd.Next(1,8);
 
-            //var bot = arrayBtn[rndBtn]; 
+            var bot = arrayBtn[rndBtn]; 
 
-            //if (bot.IsAccessibilityElement == false)
-            //{
-            //    bot.SetEnabled(false);
-            //    string xyz = bot + "_activate()";
-            //    //Self[xyz](); 
-            //}
+            if (bot.IsAccessibilityElement == false)
+            {
+                bot.SetEnabled(false);
+                string xyz = bot + "_activate()";
+                //Self[xyz](); 
+            }
 
         }
 
