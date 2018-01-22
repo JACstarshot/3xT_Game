@@ -105,6 +105,7 @@
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Interface.storyboard" />
+    <InterfaceDefinition Include="Resources\en.lproj\Interface.storyboard" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Prueba1.P_Watch_1Extension\Prueba1.P_Watch_1Extension.csproj">

@@ -66,9 +66,9 @@ namespace Prueba1.P_Watch_1Extension
             image.Size = new CGSize(escena.Size.Width, escena.Size.Height);
 
 
-            image.RunAction(SKAction.RepeatActionForever(SKAction.RotateToAngle((nfloat)1.55, 2)));// (Grades/60)+(Grades/1800)
+            image.RunAction(SKAction.RepeatActionForever(SKAction.ResizeByWidth(20, 40, 2)));
             image.RunAction(SKAction.RepeatActionForever(SKAction.RotateToAngle((nfloat)1.55, 2)));
-            image.RunAction(SKAction.RepeatActionForever(SKAction.RotateToAngle((nfloat)(6.29 * -1), 4)));
+            //image.RunAction(SKAction.RepeatActionForever(SKAction.RotateToAngle((nfloat)(6.29 * -1), 4)));
 
 
             escena.AddChild(image);

@@ -14,24 +14,24 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController">
                     <items>
+                        <label width="76" height="41" alignment="center" text="TicTacToe" id="2316">
+                            <fontDescription key="font" type="boldSystem" pointSize="16"/>
+                        </label>
                         <button width="0.29999999999999999" height="0.29999999999999999" heightAdjustment="2" alignment="center" hidden="YES" id="37">
                             <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                             <connections>
                                 <action selector="Button1_Activated" destination="AgC-eL-Hgc" id="386"/>
                             </connections>
                         </button>
-                        <label width="76" height="41" alignment="center" text="TicTacToe" id="2316">
-                            <fontDescription key="font" type="boldSystem" pointSize="16"/>
-                        </label>
-                        <group width="1" height="63" alignment="center" id="2245">
+                        <group width="120" height="64" alignment="center" layout="overlap" id="2245">
                             <items>
-                                <button width="65" height="63" alignment="left" title="1p" id="2317">
+                                <button width="59" height="63" alignment="left" title="1p" id="2317">
                                     <connections>
                                         <action selector="Butt_1_Activated" destination="AgC-eL-Hgc" id="2318"/>
                                         <segue destination="123" kind="push" id="fMz-CQ-em3"/>
                                     </connections>
                                 </button>
-                                <button width="65" height="63" alignment="right" title="2p" id="2442">
+                                <button width="59" height="63" alignment="right" title="2p" id="2442">
                                     <connections>
                                         <action selector="Butt_2_Activated" destination="AgC-eL-Hgc" id="2443"/>
                                         <segue destination="2730" kind="push" id="ffV-oN-cQI"/>
@@ -47,7 +47,7 @@
                     <connections>
                         <outlet property="butt_1" destination="2317" id="name-outlet-2317"/>
                         <outlet property="butt_2" destination="2442" id="name-outlet-2442"/>
-                        <outlet property="skScene" destination="DhM-dH-YbY" id="BaG-Zl-2eo"/>
+                        <outlet property="skScene" destination="DhM-dH-YbY" id="Oab-9j-e9Z"/>
                     </connections>
                 </controller>
             </objects>
@@ -300,4 +300,5 @@
             <point key="canvasLocation" x="-389" y="15"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="0.89805294690000004" green="0.02390988422" blue="0.070710605120000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>

@@ -10,7 +10,7 @@ namespace Prueba1.P_Watch_1Extension
     public partial class InterfaceGame : WKInterfaceController
     {       
         bool tirada = true;
-        bool cpu = false;
+        bool cpu = true;
         string imagenTurno;
 
         // X  
@@ -45,7 +45,8 @@ namespace Prueba1.P_Watch_1Extension
 
             if (cpu == true)
             {
-                cpu_on();    
+                cpu_on();   
+                checkGame();
             }
 
 
@@ -70,6 +71,7 @@ namespace Prueba1.P_Watch_1Extension
             if (cpu == true)
             {
                 cpu_on();
+                checkGame();
             }
         }
 
@@ -94,6 +96,7 @@ namespace Prueba1.P_Watch_1Extension
             if (cpu == true)
             {
                 cpu_on();
+                checkGame();
             }
         }
 
@@ -116,6 +119,7 @@ namespace Prueba1.P_Watch_1Extension
             if (cpu == true)
             {
                 cpu_on();
+                checkGame();
             }
         }
 
@@ -142,6 +146,7 @@ namespace Prueba1.P_Watch_1Extension
             if (cpu == true)
             {
                 cpu_on();
+                checkGame();
             }
         }
 
@@ -164,6 +169,7 @@ namespace Prueba1.P_Watch_1Extension
             if (cpu == true)
             {
                 cpu_on();
+                checkGame();
             }
         }
 
@@ -188,6 +194,7 @@ namespace Prueba1.P_Watch_1Extension
             if (cpu == true)
             {
                 cpu_on();
+                checkGame();
             }
 
         }
@@ -211,7 +218,9 @@ namespace Prueba1.P_Watch_1Extension
             if (cpu == true)
             {
                 cpu_on();
+                checkGame();
             }
+            cpu = true;
         }
 
         partial void btn9_activate()
@@ -235,6 +244,7 @@ namespace Prueba1.P_Watch_1Extension
             if (cpu == true)
             {
                 cpu_on();
+                checkGame();
             }
         }
 
@@ -279,17 +289,25 @@ namespace Prueba1.P_Watch_1Extension
         public void cpu_on()
         {
             var arrayBtn = new[] { btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9 };
+            bool flag = true;
 
             Random rnd = new Random();
-            int rndBtn = rnd.Next(1,8);
+            int rndBtn = rnd.Next(1,9);
 
-            var bot = arrayBtn[rndBtn]; 
-
-            if (bot.IsAccessibilityElement == false)
+            while (flag == true)
             {
-                bot.SetEnabled(false);
-                string xyz = bot + "_activate()";
-                //Self[xyz](); 
+                var bot = arrayBtn[rndBtn];
+
+                if (bot.IsAccessibilityElement == false)
+                {
+                    //var funcion = bot.actived;
+                    cpu = false;
+                    bot.SetEnabled(false);
+                    SepColor();
+                    flag = false;
+                    //funcion();
+                }
+                rndBtn = rnd.Next(1, 8);
             }
 
         }

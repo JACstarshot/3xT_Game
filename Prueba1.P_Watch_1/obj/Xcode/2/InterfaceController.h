@@ -23,6 +23,8 @@
 - (IBAction)Butt_2_Activated;
 
 - (IBAction)Button1_Activated;
+
+@property (unsafe_unretained, nonatomic) IBOutlet WKInterfaceSeparator *sep;
 @property (unsafe_unretained, nonatomic) IBOutlet WKInterfaceSKScene *skScene;
 
 @end

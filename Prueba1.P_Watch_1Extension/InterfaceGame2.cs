@@ -40,11 +40,6 @@ namespace Prueba1.P_Watch_1Extension
 
             checkGame();
 
-            if (cpu == true)
-            {
-                cpu_on();    
-            }
-
 
         }
 
@@ -64,10 +59,7 @@ namespace Prueba1.P_Watch_1Extension
                 C2o++;
             }
             checkGame();
-            if (cpu == true)
-            {
-                cpu_on();
-            }
+
         }
 
         partial void btn3_activate()
@@ -88,10 +80,7 @@ namespace Prueba1.P_Watch_1Extension
                 D2o++;
             }
             checkGame();
-            if (cpu == true)
-            {
-                cpu_on();
-            }
+
         }
 
         partial void btn4_activate()
@@ -110,10 +99,7 @@ namespace Prueba1.P_Watch_1Extension
                 C1o++;
             }
             checkGame();
-            if (cpu == true)
-            {
-                cpu_on();
-            }
+
         }
 
         partial void btn5_activate()
@@ -136,10 +122,7 @@ namespace Prueba1.P_Watch_1Extension
                 D2o++;
             }
             checkGame();
-            if (cpu == true)
-            {
-                cpu_on();
-            }
+
         }
 
         partial void btn6_activate()
@@ -158,10 +141,7 @@ namespace Prueba1.P_Watch_1Extension
                 C3o++;
             }
             checkGame();
-            if (cpu == true)
-            {
-                cpu_on();
-            }
+           
         }
 
         partial void btn7_activate()
@@ -182,10 +162,6 @@ namespace Prueba1.P_Watch_1Extension
                 D2o++;
             }
             checkGame();
-            if (cpu == true)
-            {
-                cpu_on();
-            }
 
         }
 
@@ -205,10 +181,7 @@ namespace Prueba1.P_Watch_1Extension
                 C2o++;
             }
             checkGame();
-            if (cpu == true)
-            {
-                cpu_on();
-            }
+
         }
 
         partial void btn9_activate()
@@ -229,10 +202,7 @@ namespace Prueba1.P_Watch_1Extension
                 D1o++;
             }
             checkGame();
-            if (cpu == true)
-            {
-                cpu_on();
-            }
+           
         }
 
         public void SepColor()
@@ -272,25 +242,6 @@ namespace Prueba1.P_Watch_1Extension
             }
 
         }
-
-        public void cpu_on()
-        {
-            var arrayBtn = new[] { btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9 };
-
-            Random rnd = new Random();
-            int rndBtn = rnd.Next(1,8);
-
-            var bot = arrayBtn[rndBtn]; 
-
-            if (bot.IsAccessibilityElement == false)
-            {
-                bot.SetEnabled(false);
-                string xyz = bot + "_activate()";
-                //Self[xyz](); 
-            }
-
-        }
-
     }
   
 }
