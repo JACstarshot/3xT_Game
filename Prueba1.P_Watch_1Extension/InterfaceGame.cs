@@ -10,7 +10,7 @@ namespace Prueba1.P_Watch_1Extension
     public partial class InterfaceGame : WKInterfaceController
     {       
         bool tirada = true;
-        bool cpu = true;
+        bool cpu = false;
         string imagenTurno;
 
         // X  
@@ -29,12 +29,6 @@ namespace Prueba1.P_Watch_1Extension
             SepColor();
             btn1.SetEnabled(false);
             btn1.SetBackgroundImage(imagenTurno);
-
-            Console.WriteLine("{0,1}", "winz");
-
-            Random rnd = new Random();
-            rnd.Next(1, 8);
-            rnd.Next(1, 8);
 
             if (tirada == true) {
                 L1x++;
@@ -269,8 +263,8 @@ namespace Prueba1.P_Watch_1Extension
 
                 var controllerNames = new[] { "InterfaceController", "InterfaceGame" };
                 var contexts = new[] { "First", "Second"};
-                //PresentController(controllerNames, contexts);
-                this.PushController("InterfaceController", "First");
+                PresentController(controllerNames, contexts);
+               
             }
             if (L1o == 3 || L2o == 3 || L3o == 3 || C1o == 3 || C2o == 3 || C3o == 3 || D1o == 3 || D2o == 3)
             {

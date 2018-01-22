@@ -112,6 +112,10 @@
     <Compile Include="InterfaceGame.designer.cs">
       <DependentUpon>InterfaceGame.cs</DependentUpon>
     </Compile>
+    <Compile Include="InterfaceGame2.cs" />
+    <Compile Include="InterfaceGame2.designer.cs">
+      <DependentUpon>InterfaceGame2.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="PushNotificationPayload.json" />
