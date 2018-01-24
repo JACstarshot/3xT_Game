@@ -253,23 +253,19 @@ namespace Prueba1.P_Watch_1Extension
         }
 
         public void checkGame()
-        {      
-            
+        {
+
             if (L1x == 3 || L2x == 3 || L3x == 3 || C1x == 3 || C2x == 3 || C3x == 3 || D1x == 3 || D2x == 3)
             {
                 //Win X  
 
-                var controllerNames = new[] { "InterfaceController", "InterfaceGame" };
-                var contexts = new[] { "First", "Second"};
-                PresentController(controllerNames, contexts);
-               
+                btnWin.SetHidden(false);
+
             }
             if (L1o == 3 || L2o == 3 || L3o == 3 || C1o == 3 || C2o == 3 || C3o == 3 || D1o == 3 || D2o == 3)
             {
                 //Win O
-                var controllerNames = new[] { "InterfaceController" };
-                var contexts = new[] { "First"};
-                PresentController(controllerNames, contexts);
+                btnWin.SetHidden(false);
             }
 
         }
@@ -279,7 +275,7 @@ namespace Prueba1.P_Watch_1Extension
             var arrayBtn = new[] { btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9 };
 
             Random rnd = new Random();
-            int rndBtn = rnd.Next(1,8);
+            int rndBtn = rnd.Next(1,9);
 
             var bot = arrayBtn[rndBtn]; 
 

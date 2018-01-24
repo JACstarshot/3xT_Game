@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10FF98B30000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9821B1EF0000000000000000 /* Foundation.framework */; };
+		1756C6900000000000000000 /* ExtensionDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 9E78DFCC0000000000000000 /* ExtensionDelegate.h */; };
+		1B5084C00000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2729DFC0000000000000000 /* Info.plist */; };
+		2A1279510000000000000000 /* o.png in Resources */ = {isa = PBXBuildFile; fileRef = B134928D0000000000000000 /* o.png */; };
+		4408412F0000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB2A5A6B0000000000000000 /* Entitlements.plist */; };
+		47FB879A0000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1DA0D60000000000000000 /* CoreGraphics.framework */; };
+		4B59B11C0000000000000000 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27BCA580000000000000000 /* WatchKit.framework */; };
+		5EABC2E80000000000000000 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CDDC240000000000000000 /* InterfaceController.m */; };
+		65381E2A0000000000000000 /* ic_videogame_asset_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC5A37660000000000000000 /* ic_videogame_asset_2x.png */; };
+		674CF9230000000000000000 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE6F125F0000000000000000 /* Interface.storyboard */; };
+		6C0BCBFE0000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F32DE53A0000000000000000 /* UIKit.framework */; };
+		6C2468F00000000000000000 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F346822C0000000000000000 /* ExtensionDelegate.m */; };
+		7B81F22F0000000000000000 /* InterfaceGame2.h in Sources */ = {isa = PBXBuildFile; fileRef = 2A40B6B00000000000000000 /* InterfaceGame2.h */; };
+		7C9458F00000000000000000 /* InterfaceController.h in Sources */ = {isa = PBXBuildFile; fileRef = 8EEB5ECB0000000000000000 /* InterfaceController.h */; };
+		859C6EB50000000000000000 /* InterfaceGame.h in Sources */ = {isa = PBXBuildFile; fileRef = CBE87F100000000000000000 /* InterfaceGame.h */; };
+		9D7D5B9A0000000000000000 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = 249F74D60000000000000000 /* x.png */; };
+		A797D8200000000000000000 /* InterfaceGame2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB9F15C0000000000000000 /* InterfaceGame2.m */; };
+		B0E6C8360000000000000000 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3808E1720000000000000000 /* NotificationController.m */; };
+		B2FBA32F0000000000000000 /* NotificationController.h in Sources */ = {isa = PBXBuildFile; fileRef = 3A1DBC6B0000000000000000 /* NotificationController.h */; };
+		B6A797080000000000000000 /* ic_videogame_asset_white_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DC9B0440000000000000000 /* ic_videogame_asset_white_2x.png */; };
+		DA03A9CC0000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6125C3080000000000000000 /* MapKit.framework */; };
+		DFDD15900000000000000000 /* InterfaceGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FF2ECC0000000000000000 /* InterfaceGame.m */; };
+		F4ADA34A0000000000000000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BCFBC860000000000000000 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		249F74D60000000000000000 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
+		2A40B6B00000000000000000 /* InterfaceGame2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceGame2.h; sourceTree = "<group>"; };
+		2EB9F15C0000000000000000 /* InterfaceGame2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceGame2.m; sourceTree = "<group>"; };
+		3808E1720000000000000000 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		3A1DBC6B0000000000000000 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		3DC9B0440000000000000000 /* ic_videogame_asset_white_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_videogame_asset_white_2x.png; sourceTree = "<group>"; };
+		6125C3080000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		66FF2ECC0000000000000000 /* InterfaceGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceGame.m; sourceTree = "<group>"; };
+		7BCFBC860000000000000000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EEB5ECB0000000000000000 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		9821B1EF0000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9E78DFCC0000000000000000 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		A2729DFC0000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF908A230000000000000000 /* Prueba1.P_Watch_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prueba1.P_Watch_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B134928D0000000000000000 /* o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = o.png; sourceTree = "<group>"; };
+		CB2A5A6B0000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		CBE87F100000000000000000 /* InterfaceGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceGame.h; sourceTree = "<group>"; };
+		CF1DA0D60000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D27BCA580000000000000000 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		E5CDDC240000000000000000 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		EC5A37660000000000000000 /* ic_videogame_asset_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_videogame_asset_2x.png; sourceTree = "<group>"; };
+		EE6F125F0000000000000000 /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		F32DE53A0000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F346822C0000000000000000 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFE997940000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C0BCBFE0000000000000000 /* UIKit.framework in Frameworks */,
+				DA03A9CC0000000000000000 /* MapKit.framework in Frameworks */,
+				10FF98B30000000000000000 /* Foundation.framework in Frameworks */,
+				47FB879A0000000000000000 /* CoreGraphics.framework in Frameworks */,
+				4B59B11C0000000000000000 /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		356954D60000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				91BED6AA0000000000000000 /* Prueba1.P_Watch_1 */,
+				73E93EC00000000000000000 /* Frameworks */,
+				639415C00000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		639415C00000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF908A230000000000000000 /* Prueba1.P_Watch_1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73E93EC00000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D27BCA580000000000000000 /* WatchKit.framework */,
+				F32DE53A0000000000000000 /* UIKit.framework */,
+				6125C3080000000000000000 /* MapKit.framework */,
+				9821B1EF0000000000000000 /* Foundation.framework */,
+				CF1DA0D60000000000000000 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91BED6AA0000000000000000 /* Prueba1.P_Watch_1 */ = {
+			isa = PBXGroup;
+			children = (
+				7BCFBC860000000000000000 /* Assets.xcassets */,
+				CB2A5A6B0000000000000000 /* Entitlements.plist */,
+				9E78DFCC0000000000000000 /* ExtensionDelegate.h */,
+				F346822C0000000000000000 /* ExtensionDelegate.m */,
+				EC5A37660000000000000000 /* ic_videogame_asset_2x.png */,
+				3DC9B0440000000000000000 /* ic_videogame_asset_white_2x.png */,
+				A2729DFC0000000000000000 /* Info.plist */,
+				EE6F125F0000000000000000 /* Interface.storyboard */,
+				8EEB5ECB0000000000000000 /* InterfaceController.h */,
+				E5CDDC240000000000000000 /* InterfaceController.m */,
+				CBE87F100000000000000000 /* InterfaceGame.h */,
+				66FF2ECC0000000000000000 /* InterfaceGame.m */,
+				2A40B6B00000000000000000 /* InterfaceGame2.h */,
+				2EB9F15C0000000000000000 /* InterfaceGame2.m */,
+				3A1DBC6B0000000000000000 /* NotificationController.h */,
+				3808E1720000000000000000 /* NotificationController.m */,
+				B134928D0000000000000000 /* o.png */,
+				249F74D60000000000000000 /* x.png */,
+			);
+			name = Prueba1.P_Watch_1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		767FC0430000000000000000 /* Prueba1.P_Watch_1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A2A3E6F0000000000000000 /* Build configuration list for PBXNativeTarget "Prueba1.P_Watch_1" */;
+			buildPhases = (
+				A36132A40000000000000000 /* Sources */,
+				BFE997940000000000000000 /* Frameworks */,
+				B1A5651C0000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Prueba1.P_Watch_1;
+			productName = Prueba1.P_Watch_1;
+			productReference = AF908A230000000000000000 /* Prueba1.P_Watch_1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42E1FADE0000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				TargetAttributes = {
+					767FC0430000000000000000 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4854FF590000000000000000 /* Build configuration list for PBXProject "Prueba1.P_Watch_1" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 356954D60000000000000000;
+			productRefGroup = 639415C00000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				767FC0430000000000000000 /* Prueba1.P_Watch_1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1A5651C0000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4ADA34A0000000000000000 /* Assets.xcassets in Resources */,
+				1B5084C00000000000000000 /* Info.plist in Resources */,
+				4408412F0000000000000000 /* Entitlements.plist in Resources */,
+				674CF9230000000000000000 /* Interface.storyboard in Resources */,
+				65381E2A0000000000000000 /* ic_videogame_asset_2x.png in Resources */,
+				B6A797080000000000000000 /* ic_videogame_asset_white_2x.png in Resources */,
+				2A1279510000000000000000 /* o.png in Resources */,
+				9D7D5B9A0000000000000000 /* x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A36132A40000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B81F22F0000000000000000 /* InterfaceGame2.h in Sources */,
+				A797D8200000000000000000 /* InterfaceGame2.m in Sources */,
+				859C6EB50000000000000000 /* InterfaceGame.h in Sources */,
+				DFDD15900000000000000000 /* InterfaceGame.m in Sources */,
+				B2FBA32F0000000000000000 /* NotificationController.h in Sources */,
+				B0E6C8360000000000000000 /* NotificationController.m in Sources */,
+				7C9458F00000000000000000 /* InterfaceController.h in Sources */,
+				5EABC2E80000000000000000 /* InterfaceController.m in Sources */,
+				1756C6900000000000000000 /* ExtensionDelegate.h in Sources */,
+				6C2468F00000000000000000 /* ExtensionDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		195304970000000000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.companyname.Prueba1.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B2E3063D0000000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.companyname.Prueba1.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F98A48BA0000000000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = watchos;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
+		FD363C930000000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = watchos;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A2A3E6F0000000000000000 /* Build configuration list for PBXNativeTarget "Prueba1.P_Watch_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2E3063D0000000000000000 /* Debug */,
+				195304970000000000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4854FF590000000000000000 /* Build configuration list for PBXProject "Prueba1.P_Watch_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD363C930000000000000000 /* Debug */,
+				F98A48BA0000000000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42E1FADE0000000000000000 /* Project object */;
+}

@@ -1,11 +1,10 @@
 // WARNING
 //
-// This file has been generated automatically by Visual Studio from the outlets and
-// actions declared in your storyboard file.
-// Manual changes to this file will not be maintained.
+// This file has been generated automatically by Visual Studio to store outlets and
+// actions made in the UI designer. If it is removed, they will be lost.
+// Manual changes to this file may not be handled correctly.
 //
 using Foundation;
-using System;
 using System.CodeDom.Compiler;
 
 namespace Prueba1.P_Watch_1Extension
@@ -39,6 +38,9 @@ namespace Prueba1.P_Watch_1Extension
 
         [Outlet]
         WatchKit.WKInterfaceButton btn9 { get; set; }
+
+        [Outlet]
+        WatchKit.WKInterfaceButton btnWin2 { get; set; }
 
         [Outlet]
         WatchKit.WKInterfaceGroup horizontal1 { get; set; }
@@ -82,7 +84,7 @@ namespace Prueba1.P_Watch_1Extension
 
         [Action ("m1")]
         partial void m1 ();
-
+        
         void ReleaseDesignerOutlets ()
         {
             if (btn1 != null) {
@@ -148,6 +150,11 @@ namespace Prueba1.P_Watch_1Extension
             if (sep1 != null) {
                 sep1.Dispose ();
                 sep1 = null;
+            }
+
+            if (btnWin2 != null) {
+                btnWin2.Dispose ();
+                btnWin2 = null;
             }
         }
     }

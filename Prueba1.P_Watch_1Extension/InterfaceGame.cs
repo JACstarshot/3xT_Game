@@ -40,14 +40,7 @@ namespace Prueba1.P_Watch_1Extension
                 C1o++;
                 D1o++;
             }
-
             checkGame();
-
-            if (cpu == true)
-            {
-                cpu_on();    
-            }
-
 
         }
 
@@ -67,10 +60,6 @@ namespace Prueba1.P_Watch_1Extension
                 C2o++;
             }
             checkGame();
-            if (cpu == true)
-            {
-                cpu_on();
-            }
         }
 
         partial void btn3_activate()
@@ -91,10 +80,6 @@ namespace Prueba1.P_Watch_1Extension
                 D2o++;
             }
             checkGame();
-            if (cpu == true)
-            {
-                cpu_on();
-            }
         }
 
         partial void btn4_activate()
@@ -113,10 +98,6 @@ namespace Prueba1.P_Watch_1Extension
                 C1o++;
             }
             checkGame();
-            if (cpu == true)
-            {
-                cpu_on();
-            }
         }
 
         partial void btn5_activate()
@@ -139,10 +120,6 @@ namespace Prueba1.P_Watch_1Extension
                 D2o++;
             }
             checkGame();
-            if (cpu == true)
-            {
-                cpu_on();
-            }
         }
 
         partial void btn6_activate()
@@ -161,10 +138,6 @@ namespace Prueba1.P_Watch_1Extension
                 C3o++;
             }
             checkGame();
-            if (cpu == true)
-            {
-                cpu_on();
-            }
         }
 
         partial void btn7_activate()
@@ -185,11 +158,6 @@ namespace Prueba1.P_Watch_1Extension
                 D2o++;
             }
             checkGame();
-            if (cpu == true)
-            {
-                cpu_on();
-            }
-
         }
 
         partial void btn8_activate()
@@ -207,11 +175,7 @@ namespace Prueba1.P_Watch_1Extension
                 L3o++;
                 C2o++;
             }
-            checkGame();
-            if (cpu == true)
-            {
-                cpu_on();
-            }
+            checkGame();           
         }
 
         partial void btn9_activate()
@@ -232,10 +196,6 @@ namespace Prueba1.P_Watch_1Extension
                 D1o++;
             }
             checkGame();
-            if (cpu == true)
-            {
-                cpu_on();
-            }
         }
 
         public void SepColor()
@@ -261,35 +221,13 @@ namespace Prueba1.P_Watch_1Extension
             {
                 //Win X  
 
-                var controllerNames = new[] { "InterfaceController", "InterfaceGame" };
-                var contexts = new[] { "First", "Second"};
-                PresentController(controllerNames, contexts);
+                btnWin2.SetHidden(false);
                
             }
             if (L1o == 3 || L2o == 3 || L3o == 3 || C1o == 3 || C2o == 3 || C3o == 3 || D1o == 3 || D2o == 3)
             {
                 //Win O
-                var controllerNames = new[] { "InterfaceController" };
-                var contexts = new[] { "First"};
-                PresentController(controllerNames, contexts);
-            }
-
-        }
-
-        public void cpu_on()
-        {
-            var arrayBtn = new[] { btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9 };
-
-            Random rnd = new Random();
-            int rndBtn = rnd.Next(1,8);
-
-            var bot = arrayBtn[rndBtn]; 
-
-            if (bot.IsAccessibilityElement == false)
-            {
-                bot.SetEnabled(false);
-                string xyz = bot + "_activate()";
-                //Self[xyz](); 
+                btnWin2.SetHidden(false);
             }
 
         }
