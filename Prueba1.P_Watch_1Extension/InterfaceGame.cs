@@ -10,7 +10,6 @@ namespace Prueba1.P_Watch_1Extension
     public partial class InterfaceGame : WKInterfaceController
     {       
         bool tirada = true;
-        bool cpu = false;
         string imagenTurno;
 
         // X  

@@ -22,220 +22,167 @@ namespace Prueba1.P_Watch_1Extension
         // O
         int L1o, L2o, L3o, C1o, C2o, C3o, D1o, D2o=0;
 
+        //------------------But_activate------------
+
         partial void btn1_activate()
         {
             SepColor();
-            btn1.SetEnabled(false);
-            btn1.SetBackgroundImage(imagenTurno);
-
-            if (tirada == true) {
-                L1x++;
-                C1x++;
-                D1x++;
-            }
-            else{
-                L1o++;
-                C1o++;
-                D1o++;
-            }
-
-            checkGame();
-
-            if (cpu == true)
-            {
-                cpu_on();    
-            }
-
-
+            Btn1();
         }
 
         partial void btn2_activate()
         {
             SepColor();
-            btn2.SetEnabled(false);
-            btn2.SetBackgroundImage(imagenTurno);
-            if (tirada == true)
-            {
-                L1x++;
-                C2x++;
-            }
-            else
-            {
-                L1o++;
-                C2o++;
-            }
-            checkGame();
-            if (cpu == true)
-            {
-                cpu_on();
-            }
+            Btn2();
         }
 
         partial void btn3_activate()
         {
             SepColor();
-            btn3.SetEnabled(false);
-            btn3.SetBackgroundImage(imagenTurno);
-            if (tirada == true)
-            {
-                L1x++;
-                C3x++;
-                D2x++;
-            }
-            else
-            {
-                L1o++;
-                C3o++;
-                D2o++;
-            }
-            checkGame();
-            if (cpu == true)
-            {
-                cpu_on();
-            }
+            Btn3();
         }
 
         partial void btn4_activate()
         {
             SepColor();
-            btn4.SetEnabled(false);
-            btn4.SetBackgroundImage(imagenTurno);
-            if (tirada == true)
-            {
-                L2x++;
-                C1x++;
-            }
-            else
-            {
-                L2o++;
-                C1o++;
-            }
-            checkGame();
-            if (cpu == true)
-            {
-                cpu_on();
-            }
+            Btn4();
         }
 
         partial void btn5_activate()
         {
             SepColor();
-            btn5.SetEnabled(false);
-            btn5.SetBackgroundImage(imagenTurno);
-            if (tirada == true)
-            {
-                L2x++;
-                C2x++;
-                D1x++;
-                D2x++;
-            }
-            else
-            {
-                L2o++;
-                C2o++;
-                D1o++;
-                D2o++;
-            }
-            checkGame();
-            if (cpu == true)
-            {
-                cpu_on();
-            }
+            Btn5();
         }
 
         partial void btn6_activate()
         {
             SepColor();
-            btn6.SetEnabled(false);
-            btn6.SetBackgroundImage(imagenTurno);
-            if (tirada == true)
-            {
-                L2x++;
-                C3x++;
-            }
-            else
-            {
-                L2o++;
-                C3o++;
-            }
-            checkGame();
-            if (cpu == true)
-            {
-                cpu_on();
-            }
+            Btn6();
         }
 
         partial void btn7_activate()
         {
             SepColor();
-            btn7.SetEnabled(false);
-            btn7.SetBackgroundImage(imagenTurno);
-            if (tirada == true)
-            {
-                L3x++;
-                C1x++;
-                D2x++;
-            }
-            else
-            {
-                L3o++;
-                C1o++;
-                D2o++;
-            }
-            checkGame();
-            if (cpu == true)
-            {
-                cpu_on();
-            }
-
+            Btn7();
         }
 
         partial void btn8_activate()
         {
             SepColor();
-            btn8.SetEnabled(false);
-            btn8.SetBackgroundImage(imagenTurno);
-            if (tirada == true)
-            {
-                L3x++;
-                C2x++;
-            }
-            else
-            {
-                L3o++;
-                C2o++;
-            }
-            checkGame();
-            if (cpu == true)
-            {
-                cpu_on();
-            }
+            Btn8();
         }
 
         partial void btn9_activate()
         {            
             SepColor();
-            btn9.SetEnabled(false); 
-            btn9.SetBackgroundImage(imagenTurno);
-            if (tirada == true)
-            {
-                L3x++;
-                C3x++;
-                D1x++;
-            }
-            else
-            {
-                L3o++;
-                C3o++;
-                D1o++;
-            }
-            checkGame();
-            if (cpu == true)
-            {
-                cpu_on();
-            }
+            Btn9();
         }
 
+
+
+
+        //------------------Function_But------------
+        public void Btn1()
+        {
+            btn1.SetEnabled(false);
+            btn1.SetBackgroundImage(imagenTurno);
+
+            if (tirada == true) {L1x++;C1x++;D1x++;}
+            else {L1o++;C1o++;D1o++;}
+
+            checkGame();
+            if (cpu == true) {cpu_on();}
+        }
+
+        public void Btn2()
+        {
+            btn2.SetEnabled(false);
+            btn2.SetBackgroundImage(imagenTurno);
+            if (tirada == true) {L1x++;C2x++;}
+            else {L1o++;C2o++;}
+
+            checkGame();
+            if (cpu == true){cpu_on();}
+        }
+
+        public void Btn3()
+        {
+            btn3.SetEnabled(false);
+            btn3.SetBackgroundImage(imagenTurno);
+            if (tirada == true) {L1x++;C3x++;D2x++;}
+            else {L1o++;C3o++;D2o++;}
+
+            checkGame();
+            if (cpu == true){cpu_on();}
+        }
+
+        public void Btn4()
+        {
+            btn4.SetEnabled(false);
+            btn4.SetBackgroundImage(imagenTurno);
+            if (tirada == true) {L2x++;C1x++;}
+            else {L2o++;C1o++;}
+
+            checkGame();
+            if (cpu == true) {cpu_on();}
+        }
+
+        public void Btn5()
+        {
+            btn5.SetEnabled(false);
+            btn5.SetBackgroundImage(imagenTurno);
+            if (tirada == true) {L2x++;C2x++;D1x++;D2x++;}
+            else {L2o++;C2o++;D1o++;D2o++;}
+
+            checkGame();
+            if (cpu == true) {cpu_on();}
+        }
+
+        public void Btn6()
+        {
+            btn6.SetEnabled(false);
+            btn6.SetBackgroundImage(imagenTurno);
+            if (tirada == true) {L2x++;C3x++;}
+            else {L2o++;C3o++;}
+
+            checkGame();
+            if (cpu == true) {cpu_on();}
+        }
+
+        public void Btn7()
+        {
+            btn7.SetEnabled(false);
+            btn7.SetBackgroundImage(imagenTurno);
+            if (tirada == true) {L3x++;C1x++;D2x++;}
+            else {L3o++;C1o++;D2o++;}
+
+            checkGame();
+            if (cpu == true) {cpu_on();}
+        }
+
+        public void Btn8()
+        {
+            btn8.SetEnabled(false);
+            btn8.SetBackgroundImage(imagenTurno);
+            if (tirada == true) {L3x++;C2x++;}
+            else {L3o++;C2o++;}
+
+            checkGame();
+            if (cpu == true) {cpu_on();}
+        }
+
+        public void Btn9()
+        {
+            btn9.SetEnabled(false);
+            btn9.SetBackgroundImage(imagenTurno);
+            if (tirada == true) {L3x++;C3x++;D1x++;}
+            else {L3o++;C3o++;D1o++;}
+
+            checkGame();
+            if (cpu == true) {cpu_on();}
+        }
+
+        //------------------Function_Game------------
         public void SepColor()
         {
             if (tirada == true)
@@ -258,7 +205,6 @@ namespace Prueba1.P_Watch_1Extension
             if (L1x == 3 || L2x == 3 || L3x == 3 || C1x == 3 || C2x == 3 || C3x == 3 || D1x == 3 || D2x == 3)
             {
                 //Win X  
-
                 btnWin.SetHidden(false);
 
             }
@@ -277,15 +223,25 @@ namespace Prueba1.P_Watch_1Extension
             Random rnd = new Random();
             int rndBtn = rnd.Next(1,9);
 
-            var bot = arrayBtn[rndBtn]; 
+            var bot = arrayBtn[rndBtn];
 
-            if (bot.IsAccessibilityElement == false)
+            while (cpu == true)
             {
-
-
-                //bot.SetEnabled(false);
-                //string xyz = bot + "_activate()";
-                //Self[xyz](); 
+                if (bot.IsAccessibilityElement == false)
+                {
+                    cpu = false;
+                    if (bot == btn1) { Btn1(); }
+                    if (bot == btn2) { Btn2(); }
+                    if (bot == btn3) { Btn3(); }
+                    if (bot == btn4) { Btn4(); }
+                    if (bot == btn5) { Btn5(); }
+                    if (bot == btn6) { Btn6(); }
+                    if (bot == btn7) { Btn7(); }
+                    if (bot == btn8) { Btn8(); }
+                    if (bot == btn9) { Btn9(); }
+                }
+                rndBtn = rnd.Next(1, 9);
+                bot = arrayBtn[rndBtn];
             }
 
         }
