@@ -3,6 +3,7 @@ using System;
 using WatchKit;
 using UIKit;
 
+
 namespace Prueba1.P_Watch_1Extension
 {
     public partial class InterfaceGame2 : WKInterfaceController
@@ -12,7 +13,7 @@ namespace Prueba1.P_Watch_1Extension
         }
 
         bool tirada = true;
-        bool cpu = false;
+        bool cpu = true;
         string imagenTurno;
 
         // X  
@@ -284,8 +285,10 @@ namespace Prueba1.P_Watch_1Extension
 
             if (bot.IsAccessibilityElement == false)
             {
-                bot.SetEnabled(false);
-                string xyz = bot + "_activate()";
+
+
+                //bot.SetEnabled(false);
+                //string xyz = bot + "_activate()";
                 //Self[xyz](); 
             }
 
