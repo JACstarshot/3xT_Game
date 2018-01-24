@@ -1,9 +1,8 @@
 ﻿<Properties StartupConfiguration="{35A13891-9116-4757-BFFC-1BAD840D3C2A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Prueba1.P_Watch_1Extension/InterfaceGame.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Prueba1.P_Watch_1Extension/InterfaceGame2.cs">
     <Files>
-      <File FileName="Prueba1.P_Watch_1Extension/InterfaceGame2.cs" Line="295" Column="10" />
-      <File FileName="Prueba1.P_Watch_1Extension/InterfaceGame.cs" Line="41" Column="23" />
-      <File FileName="Prueba1.P_Watch_1Extension/InterfaceGame.designer.cs" Line="165" Column="1" />
+      <File FileName="Prueba1.P_Watch_1Extension/InterfaceGame.cs" Line="12" Column="28" />
+      <File FileName="Prueba1.P_Watch_1Extension/InterfaceGame2.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
