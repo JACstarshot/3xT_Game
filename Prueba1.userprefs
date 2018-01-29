@@ -1,17 +1,15 @@
 ﻿<Properties StartupConfiguration="{35A13891-9116-4757-BFFC-1BAD840D3C2A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Prueba1.P_Watch_1Extension/InterfaceGame2.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Prueba1.P_Watch_1Extension/InterfaceGame.cs">
     <Files>
-      <File FileName="Prueba1.P_Watch_1Extension/InterfaceGame.cs" Line="12" Column="28" />
       <File FileName="Prueba1.P_Watch_1Extension/InterfaceGame2.cs" Line="1" Column="1" />
+      <File FileName="Prueba1.P_Watch_1Extension/InterfaceGame.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
-    <Watch file="Prueba1.P_Watch_1Extension/InterfaceGame.cs" line="33" offsetX="494" offsetY="600" expression="rnd" liveUpdate="False" />
-  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Prueba1.P__Watch__1 PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BF48CE9E-F3A8-4349-A19E-B422B0046E59" />
   <MultiItemStartupConfigurations />
 </Properties>

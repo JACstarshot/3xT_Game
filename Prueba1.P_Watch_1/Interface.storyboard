@@ -25,13 +25,13 @@
                         </label>
                         <group width="1" height="88" alignment="center" id="2245">
                             <items>
-                                <button width="66" height="76" alignment="left" title="1p" id="2317">
+                                <button width="66" height="76" alignment="left" title="2p" id="2317">
                                     <connections>
                                         <action selector="Butt_1_Activated" destination="AgC-eL-Hgc" id="2318"/>
                                         <segue destination="123" kind="push" id="fMz-CQ-em3"/>
                                     </connections>
                                 </button>
-                                <button width="66" height="76" alignment="right" title="2p" id="2442">
+                                <button width="66" height="76" alignment="right" title="CPU" id="2442">
                                     <connections>
                                         <action selector="Butt_2_Activated" destination="AgC-eL-Hgc" id="2443"/>
                                         <segue destination="2730" kind="push" id="ffV-oN-cQI"/>
@@ -88,7 +88,7 @@
                         <group width="134" height="151" alignment="left" layout="overlap" id="v8e-Kx-qZR">
                             <items>
                                 <separator alignment="left" id="976">
-                                    <color key="color" red="0.28627450980392155" green="1" blue="0.047058823529411764" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="color" red="1" green="0.43811474220000002" blue="0.354107844" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </separator>
                                 <group width="1" height="50" alignment="center" id="JCd-Tj-iaZ">
                                     <items>
