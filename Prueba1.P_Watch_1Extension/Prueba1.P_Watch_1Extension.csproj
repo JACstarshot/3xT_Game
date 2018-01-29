@@ -119,6 +119,7 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="PushNotificationPayload.json" />
+    <BundleResource Include="Resources\logo_TTT_58x58.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\WatchOS\Xamarin.WatchOS.AppExtension.CSharp.targets" />
 </Project>

@@ -14,3 +14,4 @@
 /Users/starshotsoftware/3xT_Game/Prueba1.P_Watch_1Extension/obj/iPhoneSimulator/Debug/device-builds/watch2.3-4.2/actool/_PartialAppManifest.items
 /Users/starshotsoftware/3xT_Game/Prueba1.P_Watch_1Extension/obj/iPhoneSimulator/Debug/device-builds/watch2.3-4.2/actool/_BundleResourceWithLogicalName.items
 /Users/starshotsoftware/3xT_Game/Prueba1.P_Watch_1Extension/obj/iPhoneSimulator/Debug/device-builds/watch2.3-4.2/optimized/
+/Users/starshotsoftware/3xT_Game/Prueba1.P_Watch_1Extension/obj/iPhoneSimulator/Debug/device-builds/watch2.3-4.2/optimized/logo_TTT_58x58.png

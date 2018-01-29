@@ -58,18 +58,15 @@ namespace Prueba1.P_Watch_1Extension
 
 
             //Add something
-            SKSpriteNode image = SKSpriteNode.FromImageNamed("o.png");
+            SKSpriteNode image = SKSpriteNode.FromImageNamed("logo_TTT_58x58.png");
 
             escena.BackgroundColor = new UIColor(red: 0, green: 0, blue: 0, alpha: 0);
-            image.Color = new UIColor(red: 0, green: 0, blue: 0, alpha: 0);
+            image.Color = new UIColor(red: 90, green: 60, blue: 0, alpha: 60);
             image.Position = new CGPoint(67, 67);
             image.Size = new CGSize(escena.Size.Width, escena.Size.Height);
 
-
             image.RunAction(SKAction.RepeatActionForever(SKAction.RotateToAngle((nfloat)1.55, 2)));// (Grades/60)+(Grades/1800)
             image.RunAction(SKAction.RepeatActionForever(SKAction.RotateToAngle((nfloat)1.55, 2)));
-            image.RunAction(SKAction.RepeatActionForever(SKAction.RotateToAngle((nfloat)(6.29 * -1), 4)));
-
 
             escena.AddChild(image);
         }
