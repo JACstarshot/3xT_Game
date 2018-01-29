@@ -201,13 +201,13 @@ namespace Prueba1.P_Watch_1Extension
         {
             if (tirada == true)
             {
-                sep1.SetColor(UIColor.Red);
+                sep1.SetColor(UIColor.Green);
                 tirada = false;
                 imagenTurno = "o.png";
             }
             else
             {
-                sep1.SetColor(UIColor.Green);
+                sep1.SetColor(UIColor.Red);
                 tirada = true;
                 imagenTurno = "x.png";
             }   

@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{35A13891-9116-4757-BFFC-1BAD840D3C2A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Prueba1.P_Watch_1Extension/InterfaceGame.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Prueba1.P_Watch_1Extension/InterfaceGame2.cs" Line="1" Column="1" />
+      <File FileName="Prueba1.P_Watch_1Extension/InterfaceGame2.cs" Line="235" Column="38" />
       <File FileName="Prueba1.P_Watch_1Extension/InterfaceGame.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
