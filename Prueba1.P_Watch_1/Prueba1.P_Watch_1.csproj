@@ -95,7 +95,7 @@
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\logo_TTT_58x58.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icono.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
@@ -115,11 +115,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\ic_videogame_asset_2x.png" />
-    <BundleResource Include="Resources\ic_videogame_asset_white_2x.png" />
-    <BundleResource Include="Resources\o.png" />
-    <BundleResource Include="Resources\logo_TTT_58x58.png" />
-    <BundleResource Include="Resources\x.png" />
+    <BundleResource Include="Resources\Combined Shape.png" />
+    <BundleResource Include="Resources\icono.png" />
+    <BundleResource Include="Resources\Oval.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\WatchOS\Xamarin.WatchOS.App.CSharp.targets" />
 </Project>

@@ -182,13 +182,13 @@ namespace Prueba1.P_Watch_1Extension
             {
                 sep1.SetColor(UIColor.Red);
                 tirada = false;
-                imagenTurno = "o.png";
+                imagenTurno = "Oval.png";
             }
             else
             {
                 sep1.SetColor(UIColor.Green);
                 tirada = true;
-                imagenTurno = "x.png";
+                imagenTurno = "Combined Shape.png";
             }   
         }
 
@@ -199,12 +199,14 @@ namespace Prueba1.P_Watch_1Extension
             {
                 //Win X  
                 btnWin.SetHidden(false);
+                btnWin.SetTitle("Win X!");
             }
 
             if (L1o == 3 || L2o == 3 || L3o == 3 || C1o == 3 || C2o == 3 || C3o == 3 || D1o == 3 || D2o == 3)
             {
                 //Win O
                 btnWin.SetHidden(false);
+                btnWin.SetTitle("Win O!");
             }
 
         }

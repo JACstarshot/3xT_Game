@@ -225,20 +225,20 @@
                                 </separator>
                                 <group width="133" height="51" alignment="left" id="2732">
                                     <items>
-                                        <button width="42" height="46" alignment="left" verticalAlignment="center" id="2737">
+                                        <button width="42" height="42" alignment="left" verticalAlignment="center" id="2737">
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
                                                 <action selector="btn1_activate" destination="2730" id="2767"/>
                                             </connections>
                                         </button>
-                                        <button width="41" height="46" alignment="center" verticalAlignment="center" id="2738">
+                                        <button width="41" height="42" alignment="center" verticalAlignment="center" id="2738">
                                             <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
                                                 <action selector="btn2_activate" destination="2730" id="2768"/>
                                             </connections>
                                         </button>
-                                        <button width="41" height="46" alignment="right" verticalAlignment="center" id="2739">
+                                        <button width="41" height="41" alignment="right" verticalAlignment="center" id="2739">
                                             <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
                                                 <action selector="btn3_activate" destination="2730" id="2769"/>
@@ -251,21 +251,21 @@
                                 <separator alignment="left" verticalAlignment="center" id="2735"/>
                                 <group width="1" height="51" alignment="left" verticalAlignment="center" id="2733">
                                     <items>
-                                        <button width="42" height="46" alignment="left" verticalAlignment="center" id="2745">
+                                        <button width="42" height="42" alignment="left" verticalAlignment="center" id="2745">
                                             <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
                                                 <action selector="btn4_activate" destination="2730" id="2770"/>
                                             </connections>
                                         </button>
                                         <separator alignment="left" id="2746"/>
-                                        <button width="41" height="47" alignment="left" verticalAlignment="center" id="2747">
+                                        <button width="41" height="41" alignment="left" verticalAlignment="center" id="2747">
                                             <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
                                                 <action selector="btn5_activate" destination="2730" id="2773"/>
                                             </connections>
                                         </button>
                                         <separator alignment="left" id="2748"/>
-                                        <button width="42" height="46" alignment="left" verticalAlignment="center" id="2749">
+                                        <button width="42" height="42" alignment="left" verticalAlignment="center" id="2749">
                                             <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
                                                 <action selector="btn6_activate" destination="2730" id="2772"/>
@@ -276,21 +276,21 @@
                                 <separator alignment="left" verticalAlignment="bottom" id="2736"/>
                                 <group width="1" height="50" alignment="left" verticalAlignment="bottom" id="2734">
                                     <items>
-                                        <button width="42" height="46" alignment="left" verticalAlignment="bottom" id="2752">
+                                        <button width="42" height="42" alignment="left" verticalAlignment="center" id="2752">
                                             <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
                                                 <action selector="btn7_activate" destination="2730" id="2775"/>
                                             </connections>
                                         </button>
                                         <separator alignment="left" id="2753"/>
-                                        <button width="41" height="46" alignment="center" verticalAlignment="bottom" id="2754">
+                                        <button width="41" height="41" alignment="center" verticalAlignment="center" id="2754">
                                             <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
                                                 <action selector="btn8_activate" destination="2730" id="2777"/>
                                             </connections>
                                         </button>
                                         <separator alignment="center" verticalAlignment="bottom" id="2756"/>
-                                        <button width="42" height="46" alignment="right" verticalAlignment="bottom" id="2757">
+                                        <button width="42" height="42" alignment="center" verticalAlignment="center" id="2757">
                                             <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
                                                 <action selector="btn9_activate" destination="2730" id="2778"/>
