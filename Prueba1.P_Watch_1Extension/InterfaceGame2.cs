@@ -2,7 +2,7 @@ using Foundation;
 using System;
 using WatchKit;
 using UIKit;
-
+using System.Collections.Generic;
 
 namespace Prueba1.P_Watch_1Extension
 {
@@ -15,12 +15,13 @@ namespace Prueba1.P_Watch_1Extension
         bool tirada = true;
         bool cpu = true;
         string imagenTurno;
+        List<bool> listButton = new List<bool> { true, true, true, true, true, true, true, true, true };
 
         // X  
-        int L1x, L2x, L3x, C1x, C2x, C3x, D1x, D2x=0;
+        int L1x, L2x, L3x, C1x, C2x, C3x, D1x, D2x = 0;
 
         // O
-        int L1o, L2o, L3o, C1o, C2o, C3o, D1o, D2o=0;
+        int L1o, L2o, L3o, C1o, C2o, C3o, D1o, D2o = 0;
 
 
         //------------------But_activate------------
@@ -49,7 +50,7 @@ namespace Prueba1.P_Watch_1Extension
         public void Btn1()
         {
             SepColor();
-
+            listButton[0]=false;    
             btn1.SetEnabled(false);
             btn1.SetBackgroundImage(imagenTurno);
 
@@ -63,7 +64,7 @@ namespace Prueba1.P_Watch_1Extension
         public void Btn2()
         {
             SepColor();
-
+            listButton[1]=false;  
             btn2.SetEnabled(false);
             btn2.SetBackgroundImage(imagenTurno);
 
@@ -77,7 +78,7 @@ namespace Prueba1.P_Watch_1Extension
         public void Btn3()
         {
             SepColor();
-
+            listButton[2]=false;  
             btn3.SetEnabled(false);
             btn3.SetBackgroundImage(imagenTurno);
 
@@ -91,7 +92,7 @@ namespace Prueba1.P_Watch_1Extension
         public void Btn4()
         {
             SepColor();
-
+            listButton[3]=false;  
             btn4.SetEnabled(false);
             btn4.SetBackgroundImage(imagenTurno);
 
@@ -105,7 +106,7 @@ namespace Prueba1.P_Watch_1Extension
         public void Btn5()
         {
             SepColor();
-
+            listButton[4]=false;  
             btn5.SetEnabled(false);
             btn5.SetBackgroundImage(imagenTurno);
 
@@ -119,7 +120,7 @@ namespace Prueba1.P_Watch_1Extension
         public void Btn6()
         {
             SepColor();
-
+            listButton[5]=false;  
             btn6.SetEnabled(false);
             btn6.SetBackgroundImage(imagenTurno);
 
@@ -133,7 +134,7 @@ namespace Prueba1.P_Watch_1Extension
         public void Btn7()
         {
             SepColor();
-
+            listButton[6]=false;  
             btn7.SetEnabled(false);
             btn7.SetBackgroundImage(imagenTurno);
 
@@ -147,7 +148,7 @@ namespace Prueba1.P_Watch_1Extension
         public void Btn8()
         {
             SepColor();
-
+            listButton[7]=false;  
             btn8.SetEnabled(false);
             btn8.SetBackgroundImage(imagenTurno);
 
@@ -161,7 +162,7 @@ namespace Prueba1.P_Watch_1Extension
         public void Btn9()
         {
             SepColor();
-
+            listButton[8]=false;  
             btn9.SetEnabled(false);
             btn9.SetBackgroundImage(imagenTurno);
 
@@ -210,18 +211,20 @@ namespace Prueba1.P_Watch_1Extension
 
         public void cpu_on()
         {
-            var arrayBtn = new[] { btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9 };
-
             Random rnd = new Random();
-            int rndBtn = rnd.Next(0,8);
+            int rndBtn = rnd.Next(0, 8);
 
-            var bot = arrayBtn[rndBtn];
+            var arrayBtn = new[] { btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9 };
 
             while (cpu == true)
             {
-                if (bot.IsAccessibilityElement == false)
+
+                if (listButton[rndBtn] == true)
                 {
+                    var bot = arrayBtn[rndBtn];
                     cpu = false;
+                    listButton[rndBtn] = false;
+
                     if (bot == btn1) { Btn1(); }
                     if (bot == btn2) { Btn2(); }
                     if (bot == btn3) { Btn3(); }
@@ -231,9 +234,10 @@ namespace Prueba1.P_Watch_1Extension
                     if (bot == btn7) { Btn7(); }
                     if (bot == btn8) { Btn8(); }
                     if (bot == btn9) { Btn9(); }
+
                 }
-                rndBtn = rnd.Next(0,8);
-                bot = arrayBtn[rndBtn];
+
+                rndBtn = rnd.Next(0, 8);               
             }
 
         }
