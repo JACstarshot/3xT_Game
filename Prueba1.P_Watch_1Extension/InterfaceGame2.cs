@@ -11,7 +11,7 @@ namespace Prueba1.P_Watch_1Extension
         public InterfaceGame2 (IntPtr handle) : base (handle)
         {
         }
-
+        int contador = 0;
         bool tirada = true;
         bool cpu = true;
         string imagenTurno;
@@ -49,6 +49,7 @@ namespace Prueba1.P_Watch_1Extension
 
         public void Btn1()
         {
+            
             SepColor();
             listButton[0]=false;    
             btn1.SetEnabled(false);
@@ -194,6 +195,7 @@ namespace Prueba1.P_Watch_1Extension
 
         public void checkGame()
         {
+            contador++;
 
             if (L1x == 3 || L2x == 3 || L3x == 3 || C1x == 3 || C2x == 3 || C3x == 3 || D1x == 3 || D2x == 3)
             {
@@ -207,6 +209,13 @@ namespace Prueba1.P_Watch_1Extension
                 //Win O
                 btnWin.SetHidden(false);
                 btnWin.SetTitle("Win O!");
+            }
+
+            if (contador > 8)
+            {
+                btnWin.SetHidden(false);
+                btnWin.SetTitle("Tie!");
+                cpu = false;
             }
 
         }
