@@ -11,12 +11,13 @@ namespace Prueba1.P_Watch_1Extension
     {       
         bool _turn = true;
         string imageTurn;
+        int _countTurn = 0;
 
         // X  
-        int L1x, L2x, L3x, C1x, C2x, C3x, D1x, D2x=0;
+        int L1x, L2x, L3x, C1x, C2x, C3x, D1x, D2x = 0;
 
         // O
-        int L1o, L2o, L3o, C1o, C2o, C3o, D1o, D2o=0;
+        int L1o, L2o, L3o, C1o, C2o, C3o, D1o, D2o = 0;
 
         public InterfaceGame(IntPtr handle) : base(handle)
         {
@@ -39,7 +40,7 @@ namespace Prueba1.P_Watch_1Extension
                 C1o++;
                 D1o++;
             }
-            checkGame();
+            CheckGame();
 
         }
 
@@ -58,7 +59,7 @@ namespace Prueba1.P_Watch_1Extension
                 L1o++;
                 C2o++;
             }
-            checkGame();
+            CheckGame();
         }
 
         partial void btn3_activate()
@@ -78,7 +79,7 @@ namespace Prueba1.P_Watch_1Extension
                 C3o++;
                 D2o++;
             }
-            checkGame();
+            CheckGame();
         }
 
         partial void btn4_activate()
@@ -96,7 +97,7 @@ namespace Prueba1.P_Watch_1Extension
                 L2o++;
                 C1o++;
             }
-            checkGame();
+            CheckGame();
         }
 
         partial void btn5_activate()
@@ -118,7 +119,7 @@ namespace Prueba1.P_Watch_1Extension
                 D1o++;
                 D2o++;
             }
-            checkGame();
+            CheckGame();
         }
 
         partial void btn6_activate()
@@ -136,7 +137,7 @@ namespace Prueba1.P_Watch_1Extension
                 L2o++;
                 C3o++;
             }
-            checkGame();
+            CheckGame();
         }
 
         partial void btn7_activate()
@@ -156,7 +157,7 @@ namespace Prueba1.P_Watch_1Extension
                 C1o++;
                 D2o++;
             }
-            checkGame();
+            CheckGame();
         }
 
         partial void btn8_activate()
@@ -174,7 +175,7 @@ namespace Prueba1.P_Watch_1Extension
                 L3o++;
                 C2o++;
             }
-            checkGame();           
+            CheckGame();           
         }
 
         partial void btn9_activate()
@@ -194,7 +195,7 @@ namespace Prueba1.P_Watch_1Extension
                 C3o++;
                 D1o++;
             }
-            checkGame();
+            CheckGame();
         }
 
         public void SeparatorColor()
@@ -203,34 +204,44 @@ namespace Prueba1.P_Watch_1Extension
             {
                 sep1.SetColor(UIColor.Green);
                 _turn = false;
-                imageTurn = "Oval.png";
+                imageTurn = "Combined Shape.png";
             }
             else
             {
                 sep1.SetColor(UIColor.Red);
                 _turn = true;
-                imageTurn = "Combined Shape.png";
+                imageTurn = "Oval.png";
             }   
         }
 
-        public void checkGame()
-        {      
-            
+        public void CheckGame()
+        {  
+            _countTurn++;
+
             if (L1x == 3 || L2x == 3 || L3x == 3 || C1x == 3 || C2x == 3 || C3x == 3 || D1x == 3 || D2x == 3)
             {
                 //Win X  
-
                 btnWin2.SetHidden(false);
                 btnWin2.SetTitle("Win X!");
-               
             }
+            else if (_countTurn > 8)
+            {
+                btnWin2.SetHidden(false);
+                btnWin2.SetTitle("Tie!");
+            }
+
+
             if (L1o == 3 || L2o == 3 || L3o == 3 || C1o == 3 || C2o == 3 || C3o == 3 || D1o == 3 || D2o == 3)
             {
                 //Win O
                 btnWin2.SetHidden(false);
                 btnWin2.SetTitle("Win O!");
             }
-
+            else if (_countTurn > 8)
+            {
+                btnWin2.SetHidden(false);
+                btnWin2.SetTitle("Tie!");
+            }
         }
 
     }

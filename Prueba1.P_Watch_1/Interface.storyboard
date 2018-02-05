@@ -97,8 +97,8 @@
                                 </separator>
                                 <group width="1" height="50" alignment="center" id="JCd-Tj-iaZ">
                                     <items>
-                                        <button width="42" height="43" alignment="left" verticalAlignment="center" id="bCR-Hc-xZr">
-                                            <color key="titleColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <button width="42" height="42" alignment="left" verticalAlignment="center" id="bCR-Hc-xZr">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
                                                 <action selector="btn1_activate" destination="123" id="2587"/>
@@ -107,7 +107,7 @@
                                         <separator height="56" alignment="left" id="WdC-jk-2nb">
                                             <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </separator>
-                                        <button width="41" height="43" alignment="left" verticalAlignment="center" id="ydB-3w-ET1">
+                                        <button width="41" height="41" alignment="left" verticalAlignment="center" id="ydB-3w-ET1">
                                             <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
                                                 <action selector="btn2_activate" destination="123" id="2588"/>
@@ -116,7 +116,7 @@
                                         <separator alignment="left" id="EDN-mW-ij5">
                                             <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </separator>
-                                        <button width="42" height="43" alignment="left" verticalAlignment="center" id="9TG-Ch-f4v">
+                                        <button width="42" height="42" alignment="left" verticalAlignment="center" id="9TG-Ch-f4v">
                                             <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
                                                 <action selector="btn3_activate" destination="123" id="2589"/>
@@ -129,7 +129,7 @@
                                 </separator>
                                 <group width="1" height="52" alignment="left" verticalAlignment="center" id="JRD-TG-XIQ">
                                     <items>
-                                        <button width="42" height="41" alignment="left" verticalAlignment="center" id="Hkq-4M-NgQ">
+                                        <button width="42" height="42" alignment="left" verticalAlignment="center" id="Hkq-4M-NgQ">
                                             <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
                                                 <action selector="btn4_activate" destination="123" id="2591"/>
@@ -138,7 +138,7 @@
                                         <separator height="110" alignment="left" id="jaf-rC-mWU">
                                             <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </separator>
-                                        <button width="41" height="43" alignment="left" verticalAlignment="center" id="6bM-Zh-zhE">
+                                        <button width="41" height="41" alignment="left" verticalAlignment="center" id="6bM-Zh-zhE">
                                             <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
                                                 <action selector="btn5_activate" destination="123" id="2592"/>
@@ -157,7 +157,7 @@
                                 </group>
                                 <group width="1" height="50" alignment="center" verticalAlignment="bottom" id="lFD-VI-qxw">
                                     <items>
-                                        <button width="42" height="43" alignment="left" verticalAlignment="center" id="Lzr-Yy-NVg">
+                                        <button width="42" height="42" alignment="left" verticalAlignment="center" id="Lzr-Yy-NVg">
                                             <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
                                                 <action selector="btn7_activate" destination="123" id="2595"/>
@@ -166,7 +166,7 @@
                                         <separator alignment="left" verticalAlignment="bottom" id="P1p-t5-eJO">
                                             <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </separator>
-                                        <button width="41" height="43" alignment="left" verticalAlignment="center" id="1p7-CJ-Vjv">
+                                        <button width="41" height="41" alignment="left" verticalAlignment="center" id="1p7-CJ-Vjv">
                                             <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
                                                 <action selector="btn8_activate" destination="123" id="2597"/>
@@ -175,7 +175,7 @@
                                         <separator alignment="left" verticalAlignment="bottom" id="NlI-sc-5LQ">
                                             <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </separator>
-                                        <button width="42" height="44" alignment="right" verticalAlignment="center" id="ahj-7a-0eQ">
+                                        <button width="42" height="42" alignment="right" verticalAlignment="center" id="ahj-7a-0eQ">
                                             <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
                                                 <action selector="btn9_activate" destination="123" id="2598"/>
@@ -211,7 +211,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="-781" y="-5"/>
+            <point key="canvasLocation" x="-699" y="-5"/>
         </scene>
         <!--Interface Game2-->
         <scene sceneID="2729">
@@ -320,7 +320,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="-489" y="-5"/>
+            <point key="canvasLocation" x="-506" y="-5"/>
         </scene>
     </scenes>
 </document>
