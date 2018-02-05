@@ -15,6 +15,7 @@ namespace Prueba1.P_Watch_1Extension
         bool _isTurn = true;
         bool _isCpuTurn = true;
         string imageTurn;
+
         List<bool> listButton = new List<bool> { true, true, true, true, true, true, true, true, true };
 
         // X  
@@ -50,20 +51,23 @@ namespace Prueba1.P_Watch_1Extension
         public void Btn1()
         {
             SepColor();
-            listButton[0]=false;    
+
+            listButton[0] = false;    
             btn1.SetEnabled(false);
             btn1.SetBackgroundImage(imageTurn);
 
             if (_isTurn == true) {L1x++;C1x++;D1x++;}
             else {L1o++;C1o++;D1o++;}
 
-            checkGame();
-            if (_isCpuTurn == true) {  cpu_on(); }
+            CheckGame();
+
+            if (_isCpuTurn == true) {  CpuOn(); }
         }
 
         public void Btn2()
         {
             SepColor();
+
             listButton[1]=false;  
             btn2.SetEnabled(false);
             btn2.SetBackgroundImage(imageTurn);
@@ -71,13 +75,15 @@ namespace Prueba1.P_Watch_1Extension
             if (_isTurn == true) {L1x++;C2x++;}
             else {L1o++;C2o++;}
 
-            checkGame();
-            if (_isCpuTurn == true){  cpu_on(); }
+            CheckGame();
+
+            if (_isCpuTurn == true){  CpuOn(); }
         }
 
         public void Btn3()
         {
             SepColor();
+
             listButton[2]=false;  
             btn3.SetEnabled(false);
             btn3.SetBackgroundImage(imageTurn);
@@ -85,13 +91,15 @@ namespace Prueba1.P_Watch_1Extension
             if (_isTurn == true) {L1x++;C3x++;D2x++;}
             else {L1o++;C3o++;D2o++;}
 
-            checkGame();
-            if (_isCpuTurn == true){cpu_on();}
+            CheckGame();
+
+            if (_isCpuTurn == true){CpuOn();}
         }
 
         public void Btn4()
         {
             SepColor();
+
             listButton[3]=false;  
             btn4.SetEnabled(false);
             btn4.SetBackgroundImage(imageTurn);
@@ -99,13 +107,15 @@ namespace Prueba1.P_Watch_1Extension
             if (_isTurn == true) {L2x++;C1x++;}
             else {L2o++;C1o++;}
 
-            checkGame();
-            if (_isCpuTurn == true) {cpu_on();}
+            CheckGame();
+
+            if (_isCpuTurn == true) {CpuOn();}
         }
 
         public void Btn5()
         {
             SepColor();
+
             listButton[4]=false;  
             btn5.SetEnabled(false);
             btn5.SetBackgroundImage(imageTurn);
@@ -113,13 +123,15 @@ namespace Prueba1.P_Watch_1Extension
             if (_isTurn == true) {L2x++;C2x++;D1x++;D2x++;}
             else {L2o++;C2o++;D1o++;D2o++;}
 
-            checkGame();
-            if (_isCpuTurn == true) {cpu_on();}
+            CheckGame();
+
+            if (_isCpuTurn == true) {CpuOn();}
         }
 
         public void Btn6()
         {
             SepColor();
+
             listButton[5]=false;  
             btn6.SetEnabled(false);
             btn6.SetBackgroundImage(imageTurn);
@@ -127,13 +139,15 @@ namespace Prueba1.P_Watch_1Extension
             if (_isTurn == true) {L2x++;C3x++;}
             else {L2o++;C3o++;}
 
-            checkGame();
-            if (_isCpuTurn == true) {cpu_on();}
+            CheckGame();
+
+            if (_isCpuTurn == true) {CpuOn();}
         }
 
         public void Btn7()
         {
             SepColor();
+
             listButton[6]=false;  
             btn7.SetEnabled(false);
             btn7.SetBackgroundImage(imageTurn);
@@ -141,13 +155,15 @@ namespace Prueba1.P_Watch_1Extension
             if (_isTurn == true) {L3x++;C1x++;D2x++;}
             else {L3o++;C1o++;D2o++;}
 
-            checkGame();
-            if (_isCpuTurn == true) {cpu_on();}
+            CheckGame();
+
+            if (_isCpuTurn == true) {CpuOn();}
         }
 
         public void Btn8()
         {
             SepColor();
+
             listButton[7]=false;  
             btn8.SetEnabled(false);
             btn8.SetBackgroundImage(imageTurn);
@@ -155,13 +171,15 @@ namespace Prueba1.P_Watch_1Extension
             if (_isTurn == true) {L3x++;C2x++;}
             else {L3o++;C2o++;}
 
-            checkGame();
-            if (_isCpuTurn == true) {cpu_on();}
+            CheckGame();
+
+            if (_isCpuTurn == true) {CpuOn();}
         }
 
         public void Btn9()
         {
             SepColor();
+
             listButton[8]=false;  
             btn9.SetEnabled(false);
             btn9.SetBackgroundImage(imageTurn);
@@ -169,8 +187,9 @@ namespace Prueba1.P_Watch_1Extension
             if (_isTurn == true) {L3x++;C3x++;D1x++;}
             else {L3o++;C3o++;D1o++;}
 
-            checkGame();
-            if (_isCpuTurn == true) {cpu_on();}
+            CheckGame();
+
+            if (_isCpuTurn == true) {CpuOn();}
         }
 
 
@@ -192,7 +211,7 @@ namespace Prueba1.P_Watch_1Extension
             }   
         }
 
-        public void checkGame()
+        public void CheckGame()
         {
             _countTurn ++;
 
@@ -225,7 +244,7 @@ namespace Prueba1.P_Watch_1Extension
 
         }
 
-        public void cpu_on()
+        public void CpuOn()
         {
             Random rnd = new Random();
             int numberRnd = rnd.Next(0, 8);
@@ -237,19 +256,19 @@ namespace Prueba1.P_Watch_1Extension
 
                 if (listButton[numberRnd] == true)
                 {
-                    var bot = arrayBtn[numberRnd];
+                    var buttonRnd = arrayBtn[numberRnd];
                     _isCpuTurn = false;
                     listButton[numberRnd] = false;
 
-                    if (bot == btn1) { Btn1(); }
-                    if (bot == btn2) { Btn2(); }
-                    if (bot == btn3) { Btn3(); }
-                    if (bot == btn4) { Btn4(); }
-                    if (bot == btn5) { Btn5(); }
-                    if (bot == btn6) { Btn6(); }
-                    if (bot == btn7) { Btn7(); }
-                    if (bot == btn8) { Btn8(); }
-                    if (bot == btn9) { Btn9(); }
+                    if (buttonRnd == btn1) { Btn1(); }
+                    if (buttonRnd == btn2) { Btn2(); }
+                    if (buttonRnd == btn3) { Btn3(); }
+                    if (buttonRnd == btn4) { Btn4(); }
+                    if (buttonRnd == btn5) { Btn5(); }
+                    if (buttonRnd == btn6) { Btn6(); }
+                    if (buttonRnd == btn7) { Btn7(); }
+                    if (buttonRnd == btn8) { Btn8(); }
+                    if (buttonRnd == btn9) { Btn9(); }
 
                 }
 
