@@ -9,8 +9,8 @@ namespace Prueba1.P_Watch_1Extension
     
     public partial class InterfaceGame : WKInterfaceController
     {       
-        bool tirada = true;
-        string imagenTurno;
+        bool _turn = true;
+        string imageTurn;
 
         // X  
         int L1x, L2x, L3x, C1x, C2x, C3x, D1x, D2x=0;
@@ -25,11 +25,11 @@ namespace Prueba1.P_Watch_1Extension
 
         partial void btn1_activate()
         {
-            SepColor();
+            SeparatorColor();
             btn1.SetEnabled(false);
-            btn1.SetBackgroundImage(imagenTurno);
+            btn1.SetBackgroundImage(imageTurn);
 
-            if (tirada == true) {
+            if (_turn == true) {
                 L1x++;
                 C1x++;
                 D1x++;
@@ -45,10 +45,10 @@ namespace Prueba1.P_Watch_1Extension
 
         partial void btn2_activate()
         {
-            SepColor();
+            SeparatorColor();
             btn2.SetEnabled(false);
-            btn2.SetBackgroundImage(imagenTurno);
-            if (tirada == true)
+            btn2.SetBackgroundImage(imageTurn);
+            if (_turn == true)
             {
                 L1x++;
                 C2x++;
@@ -63,10 +63,10 @@ namespace Prueba1.P_Watch_1Extension
 
         partial void btn3_activate()
         {
-            SepColor();
+            SeparatorColor();
             btn3.SetEnabled(false);
-            btn3.SetBackgroundImage(imagenTurno);
-            if (tirada == true)
+            btn3.SetBackgroundImage(imageTurn);
+            if (_turn == true)
             {
                 L1x++;
                 C3x++;
@@ -83,10 +83,10 @@ namespace Prueba1.P_Watch_1Extension
 
         partial void btn4_activate()
         {
-            SepColor();
+            SeparatorColor();
             btn4.SetEnabled(false);
-            btn4.SetBackgroundImage(imagenTurno);
-            if (tirada == true)
+            btn4.SetBackgroundImage(imageTurn);
+            if (_turn == true)
             {
                 L2x++;
                 C1x++;
@@ -101,10 +101,10 @@ namespace Prueba1.P_Watch_1Extension
 
         partial void btn5_activate()
         {
-            SepColor();
+            SeparatorColor();
             btn5.SetEnabled(false);
-            btn5.SetBackgroundImage(imagenTurno);
-            if (tirada == true)
+            btn5.SetBackgroundImage(imageTurn);
+            if (_turn == true)
             {
                 L2x++;
                 C2x++;
@@ -123,10 +123,10 @@ namespace Prueba1.P_Watch_1Extension
 
         partial void btn6_activate()
         {
-            SepColor();
+            SeparatorColor();
             btn6.SetEnabled(false);
-            btn6.SetBackgroundImage(imagenTurno);
-            if (tirada == true)
+            btn6.SetBackgroundImage(imageTurn);
+            if (_turn == true)
             {
                 L2x++;
                 C3x++;
@@ -141,10 +141,10 @@ namespace Prueba1.P_Watch_1Extension
 
         partial void btn7_activate()
         {
-            SepColor();
+            SeparatorColor();
             btn7.SetEnabled(false);
-            btn7.SetBackgroundImage(imagenTurno);
-            if (tirada == true)
+            btn7.SetBackgroundImage(imageTurn);
+            if (_turn == true)
             {
                 L3x++;
                 C1x++;
@@ -161,10 +161,10 @@ namespace Prueba1.P_Watch_1Extension
 
         partial void btn8_activate()
         {
-            SepColor();
+            SeparatorColor();
             btn8.SetEnabled(false);
-            btn8.SetBackgroundImage(imagenTurno);
-            if (tirada == true)
+            btn8.SetBackgroundImage(imageTurn);
+            if (_turn == true)
             {
                 L3x++;
                 C2x++;
@@ -179,10 +179,10 @@ namespace Prueba1.P_Watch_1Extension
 
         partial void btn9_activate()
         {            
-            SepColor();
+            SeparatorColor();
             btn9.SetEnabled(false); 
-            btn9.SetBackgroundImage(imagenTurno);
-            if (tirada == true)
+            btn9.SetBackgroundImage(imageTurn);
+            if (_turn == true)
             {
                 L3x++;
                 C3x++;
@@ -197,19 +197,19 @@ namespace Prueba1.P_Watch_1Extension
             checkGame();
         }
 
-        public void SepColor()
+        public void SeparatorColor()
         {
-            if (tirada == true)
+            if (_turn == true)
             {
                 sep1.SetColor(UIColor.Green);
-                tirada = false;
-                imagenTurno = "Oval.png";
+                _turn = false;
+                imageTurn = "Oval.png";
             }
             else
             {
                 sep1.SetColor(UIColor.Red);
-                tirada = true;
-                imagenTurno = "Combined Shape.png";
+                _turn = true;
+                imageTurn = "Combined Shape.png";
             }   
         }
 
