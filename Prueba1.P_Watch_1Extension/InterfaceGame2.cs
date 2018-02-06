@@ -50,7 +50,7 @@ namespace Prueba1.P_Watch_1Extension
 
         public void Btn1()
         {
-            SepColor();
+            SeparatorColor();
 
             listButton[0] = false;    
             btn1.SetEnabled(false);
@@ -66,7 +66,7 @@ namespace Prueba1.P_Watch_1Extension
 
         public void Btn2()
         {
-            SepColor();
+            SeparatorColor();
 
             listButton[1]=false;  
             btn2.SetEnabled(false);
@@ -82,7 +82,7 @@ namespace Prueba1.P_Watch_1Extension
 
         public void Btn3()
         {
-            SepColor();
+            SeparatorColor();
 
             listButton[2]=false;  
             btn3.SetEnabled(false);
@@ -98,7 +98,7 @@ namespace Prueba1.P_Watch_1Extension
 
         public void Btn4()
         {
-            SepColor();
+            SeparatorColor();
 
             listButton[3]=false;  
             btn4.SetEnabled(false);
@@ -114,7 +114,7 @@ namespace Prueba1.P_Watch_1Extension
 
         public void Btn5()
         {
-            SepColor();
+            SeparatorColor();
 
             listButton[4]=false;  
             btn5.SetEnabled(false);
@@ -130,7 +130,7 @@ namespace Prueba1.P_Watch_1Extension
 
         public void Btn6()
         {
-            SepColor();
+            SeparatorColor();
 
             listButton[5]=false;  
             btn6.SetEnabled(false);
@@ -146,7 +146,7 @@ namespace Prueba1.P_Watch_1Extension
 
         public void Btn7()
         {
-            SepColor();
+            SeparatorColor();
 
             listButton[6]=false;  
             btn7.SetEnabled(false);
@@ -162,7 +162,7 @@ namespace Prueba1.P_Watch_1Extension
 
         public void Btn8()
         {
-            SepColor();
+            SeparatorColor();
 
             listButton[7]=false;  
             btn8.SetEnabled(false);
@@ -178,7 +178,7 @@ namespace Prueba1.P_Watch_1Extension
 
         public void Btn9()
         {
-            SepColor();
+            SeparatorColor();
 
             listButton[8]=false;  
             btn9.SetEnabled(false);
@@ -195,7 +195,7 @@ namespace Prueba1.P_Watch_1Extension
 
         //------------------Function_Game------------
 
-        public void SepColor()
+        public void SeparatorColor()
         {
             if (_isTurn == true)
             {

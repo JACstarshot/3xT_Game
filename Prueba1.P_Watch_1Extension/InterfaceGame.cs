@@ -202,15 +202,15 @@ namespace Prueba1.P_Watch_1Extension
         {
             if (_turn == true)
             {
-                sep1.SetColor(UIColor.Green);
+                sep1.SetColor(UIColor.Red);
                 _turn = false;
-                imageTurn = "Combined Shape.png";
+                imageTurn = "Oval.png";
             }
             else
             {
-                sep1.SetColor(UIColor.Red);
+                sep1.SetColor(UIColor.Green);
                 _turn = true;
-                imageTurn = "Oval.png";
+                imageTurn = "Combined Shape.png";
             }   
         }
 

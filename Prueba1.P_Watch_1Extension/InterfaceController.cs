@@ -3,8 +3,6 @@ using UIKit;
 using WatchKit;
 using Foundation;
 using CoreGraphics;
-using UIKit;
-using CoreMotion;
 using SpriteKit;
 
 

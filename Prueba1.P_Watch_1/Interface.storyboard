@@ -26,7 +26,7 @@
                         </label>
                         <group width="1" height="77" alignment="center" id="2245">
                             <items>
-                                <button width="66" height="76" alignment="left" title="2p" id="2317">
+                                <button width="66" height="76" alignment="right" title="2p" id="2317">
                                     <color key="titleColor" red="0.77254901960784317" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="backgroundColor" red="0.2428786104995089" green="0.096265701190974759" blue="0.33477880992227982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <connections>
@@ -34,7 +34,7 @@
                                         <segue destination="123" kind="push" id="fMz-CQ-em3"/>
                                     </connections>
                                 </button>
-                                <button width="66" height="76" alignment="right" title="CPU" id="2442">
+                                <button width="66" height="76" alignment="left" title="1p" id="2442">
                                     <color key="titleColor" red="0.95794135329999996" green="0.26178926229999999" blue="0.031374774869999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="backgroundColor" red="0.21910578060058566" green="0.086843265288500573" blue="0.30201083712435239" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <connections>
