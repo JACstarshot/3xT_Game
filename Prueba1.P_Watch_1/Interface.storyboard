@@ -28,7 +28,7 @@
                             <items>
                                 <button width="66" height="76" alignment="right" title="2p" id="2317">
                                     <color key="titleColor" red="0.77254901960784317" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="backgroundColor" red="0.2428786104995089" green="0.096265701190974759" blue="0.33477880992227982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <connections>
                                         <action selector="Butt_1_Activated" destination="AgC-eL-Hgc" id="2318"/>
                                         <segue destination="123" kind="push" id="fMz-CQ-em3"/>
@@ -36,7 +36,7 @@
                                 </button>
                                 <button width="66" height="76" alignment="left" title="1p" id="2442">
                                     <color key="titleColor" red="0.95794135329999996" green="0.26178926229999999" blue="0.031374774869999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="backgroundColor" red="0.21910578060058566" green="0.086843265288500573" blue="0.30201083712435239" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <connections>
                                         <action selector="Butt_2_Activated" destination="AgC-eL-Hgc" id="2443"/>
                                         <segue destination="2730" kind="push" id="ffV-oN-cQI"/>
@@ -48,7 +48,7 @@
                             <accessibilityTraits key="accessibilityTraits" button="YES" updatesFrequently="YES"/>
                         </spriteKitScene>
                     </items>
-                    <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                     <connections>
                         <outlet property="butt_1" destination="2317" id="name-outlet-2317"/>
                         <outlet property="butt_2" destination="2442" id="name-outlet-2442"/>
@@ -99,56 +99,56 @@
                                     <items>
                                         <button width="42" height="42" alignment="left" verticalAlignment="center" id="bCR-Hc-xZr">
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <connections>
                                                 <action selector="btn1_activate" destination="123" id="2587"/>
                                             </connections>
                                         </button>
-                                        <separator height="56" alignment="left" id="WdC-jk-2nb">
+                                        <separator height="56" alignment="left" alpha="0.40000000000000002" id="WdC-jk-2nb">
                                             <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </separator>
                                         <button width="41" height="41" alignment="left" verticalAlignment="center" id="ydB-3w-ET1">
-                                            <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <connections>
                                                 <action selector="btn2_activate" destination="123" id="2588"/>
                                             </connections>
                                         </button>
-                                        <separator alignment="left" id="EDN-mW-ij5">
+                                        <separator alignment="left" alpha="0.40000000000000002" id="EDN-mW-ij5">
                                             <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </separator>
                                         <button width="42" height="42" alignment="left" verticalAlignment="center" id="9TG-Ch-f4v">
-                                            <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <connections>
                                                 <action selector="btn3_activate" destination="123" id="2589"/>
                                             </connections>
                                         </button>
                                     </items>
                                 </group>
-                                <separator alignment="right" verticalAlignment="center" id="4te-fh-o9j">
+                                <separator alignment="right" verticalAlignment="center" alpha="0.40000000000000002" id="4te-fh-o9j">
                                     <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </separator>
                                 <group width="1" height="52" alignment="left" verticalAlignment="center" id="JRD-TG-XIQ">
                                     <items>
                                         <button width="42" height="42" alignment="left" verticalAlignment="center" id="Hkq-4M-NgQ">
-                                            <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <connections>
                                                 <action selector="btn4_activate" destination="123" id="2591"/>
                                             </connections>
                                         </button>
-                                        <separator height="110" alignment="left" id="jaf-rC-mWU">
+                                        <separator height="110" alignment="left" alpha="0.40000000000000002" id="jaf-rC-mWU">
                                             <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </separator>
                                         <button width="41" height="41" alignment="left" verticalAlignment="center" id="6bM-Zh-zhE">
-                                            <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <connections>
                                                 <action selector="btn5_activate" destination="123" id="2592"/>
                                             </connections>
                                         </button>
-                                        <separator alignment="left" id="Thd-gk-bOg">
+                                        <separator alignment="left" alpha="0.40000000000000002" id="Thd-gk-bOg">
                                             <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </separator>
                                         <button width="42" height="42" alignment="center" verticalAlignment="center" id="twH-cg-ahK">
-                                            <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <connections>
                                                 <action selector="btn6_activate" destination="123" id="2593"/>
                                             </connections>
@@ -158,41 +158,41 @@
                                 <group width="1" height="50" alignment="center" verticalAlignment="bottom" id="lFD-VI-qxw">
                                     <items>
                                         <button width="42" height="42" alignment="left" verticalAlignment="center" id="Lzr-Yy-NVg">
-                                            <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <connections>
                                                 <action selector="btn7_activate" destination="123" id="2595"/>
                                             </connections>
                                         </button>
-                                        <separator alignment="left" verticalAlignment="bottom" id="P1p-t5-eJO">
+                                        <separator alignment="left" verticalAlignment="bottom" alpha="0.40000000000000002" id="P1p-t5-eJO">
                                             <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </separator>
                                         <button width="41" height="41" alignment="left" verticalAlignment="center" id="1p7-CJ-Vjv">
-                                            <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <connections>
                                                 <action selector="btn8_activate" destination="123" id="2597"/>
                                             </connections>
                                         </button>
-                                        <separator alignment="left" verticalAlignment="bottom" id="NlI-sc-5LQ">
+                                        <separator alignment="left" verticalAlignment="bottom" alpha="0.40000000000000002" id="NlI-sc-5LQ">
                                             <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </separator>
                                         <button width="42" height="42" alignment="right" verticalAlignment="center" id="ahj-7a-0eQ">
-                                            <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <connections>
                                                 <action selector="btn9_activate" destination="123" id="2598"/>
                                             </connections>
                                         </button>
                                     </items>
                                 </group>
-                                <separator alignment="right" verticalAlignment="bottom" id="zcj-R1-LC7">
+                                <separator alignment="right" verticalAlignment="bottom" alpha="0.40000000000000002" id="zcj-R1-LC7">
                                     <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </separator>
                                 <button width="1" height="178" alignment="left" hidden="YES" isAccessibilityElement="NO" title="Win!" id="fx2-Lj-aUI">
-                                    <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </button>
                             </items>
                         </group>
                     </items>
-                    <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                     <connections>
                         <outlet property="btn1" destination="bCR-Hc-xZr" id="name-outlet-bCR-Hc-xZr"/>
                         <outlet property="btn2" destination="ydB-3w-ET1" id="name-outlet-ydB-3w-ET1"/>
@@ -227,71 +227,71 @@
                                     <items>
                                         <button width="42" height="42" alignment="left" verticalAlignment="center" id="2737">
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <connections>
                                                 <action selector="btn1_activate" destination="2730" id="2767"/>
                                             </connections>
                                         </button>
                                         <button width="41" height="42" alignment="center" verticalAlignment="center" id="2738">
-                                            <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <connections>
                                                 <action selector="btn2_activate" destination="2730" id="2768"/>
                                             </connections>
                                         </button>
                                         <button width="41" height="41" alignment="right" verticalAlignment="center" id="2739">
-                                            <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <connections>
                                                 <action selector="btn3_activate" destination="2730" id="2769"/>
                                             </connections>
                                         </button>
-                                        <separator alignment="left" id="2742"/>
-                                        <separator alignment="center" id="2751"/>
+                                        <separator alignment="left" alpha="0.40000000000000002" id="2742"/>
+                                        <separator alignment="center" alpha="0.40000000000000002" id="2751"/>
                                     </items>
                                 </group>
-                                <separator alignment="left" verticalAlignment="center" id="2735"/>
+                                <separator alignment="left" verticalAlignment="center" alpha="0.40000000000000002" id="2735"/>
                                 <group width="1" height="51" alignment="left" verticalAlignment="center" id="2733">
                                     <items>
                                         <button width="42" height="42" alignment="left" verticalAlignment="center" id="2745">
-                                            <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <connections>
                                                 <action selector="btn4_activate" destination="2730" id="2770"/>
                                             </connections>
                                         </button>
-                                        <separator alignment="left" id="2746"/>
+                                        <separator alignment="left" alpha="0.40000000000000002" id="2746"/>
                                         <button width="41" height="41" alignment="left" verticalAlignment="center" id="2747">
-                                            <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <connections>
                                                 <action selector="btn5_activate" destination="2730" id="2773"/>
                                             </connections>
                                         </button>
-                                        <separator alignment="left" id="2748"/>
+                                        <separator alignment="left" alpha="0.40000000000000002" id="2748"/>
                                         <button width="42" height="42" alignment="left" verticalAlignment="center" id="2749">
-                                            <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <connections>
                                                 <action selector="btn6_activate" destination="2730" id="2772"/>
                                             </connections>
                                         </button>
                                     </items>
                                 </group>
-                                <separator alignment="left" verticalAlignment="bottom" id="2736"/>
+                                <separator alignment="left" verticalAlignment="bottom" alpha="0.40000000000000002" id="2736"/>
                                 <group width="1" height="50" alignment="left" verticalAlignment="bottom" id="2734">
                                     <items>
                                         <button width="42" height="42" alignment="left" verticalAlignment="center" id="2752">
-                                            <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <connections>
                                                 <action selector="btn7_activate" destination="2730" id="2775"/>
                                             </connections>
                                         </button>
-                                        <separator alignment="left" id="2753"/>
+                                        <separator alignment="left" alpha="0.40000000000000002" id="2753"/>
                                         <button width="41" height="41" alignment="center" verticalAlignment="center" id="2754">
-                                            <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <connections>
                                                 <action selector="btn8_activate" destination="2730" id="2777"/>
                                             </connections>
                                         </button>
-                                        <separator alignment="center" verticalAlignment="bottom" id="2756"/>
+                                        <separator alignment="center" verticalAlignment="bottom" alpha="0.40000000000000002" id="2756"/>
                                         <button width="42" height="42" alignment="center" verticalAlignment="center" id="2757">
-                                            <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <connections>
                                                 <action selector="btn9_activate" destination="2730" id="2778"/>
                                             </connections>
@@ -299,12 +299,12 @@
                                     </items>
                                 </group>
                                 <button width="1" height="152" alignment="left" hidden="YES" title="Win" id="NIM-e9-LvR">
-                                    <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </button>
                             </items>
                         </group>
                     </items>
-                    <color key="backgroundColor" red="0.31188365820000002" green="0.1241901144" blue="0.424339205" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <connections>
                         <outlet property="btn1" destination="2737" id="name-outlet-2737"/>
                         <outlet property="btn2" destination="2738" id="name-outlet-2738"/>
